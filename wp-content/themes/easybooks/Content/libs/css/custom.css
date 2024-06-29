@@ -1,0 +1,143 @@
+body, li, a , p, span, label, *{
+	font-family: 'Open Sans',sans-serif !important;
+}
+i{
+	font-family: FontAwesome !important;
+}
+#top-intro .main-intro .text h2{
+	text-align: justify;
+}
+#top-intro .main-intro .text p{
+	text-align: justify;
+}
+#highl .main-highl .list .item .text p{
+	text-align: justify;
+}
+#whytous .main-why .tab-content .tab-pane .text h2{
+	text-align: justify;
+	padding-top: 50px;
+}
+#whytous .main-why .tab-content .tab-pane .text p{
+	text-align: justify;
+}
+#footer .main-footer div p{
+	text-align: justify;
+}
+#mycontent .list-news .item .info h3 a{
+	text-align: justify;
+}
+#mycontent .list-news .item .info p{
+	text-align: justify;
+}
+.new-detail{
+	text-align: justify;
+}
+.submenu-button{
+	display: none !important;
+}
+
+#mycontent .row-function .text a{
+text-decoration: none;
+}
+#mycontent .row-function .text h2{
+color: #000;
+}
+#mycontent .list-news .item .img img{
+max-height: 190px;
+}
+#module .main-module .list .item a:hover{
+text-decoration: none;
+}
+#whytous .main-why .tab-content .tab-pane .image img{
+    width: auto;
+    max-width: 100%;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+#module .main-module .list .item a p{
+	color: #000;
+}
+#module .main-module .list .item a:hover p{
+	color: #f15140;
+}
+#detail-share .main-share{
+	padding-top:30px;
+padding-bottom:50px;
+}
+#detail-share .main-share img{
+max-width:100%;
+display:block;
+margin: 0 auto;
+}
+#module .main-module .list .item:hover{
+box-shadow: -2px 4px 20px #efbd9e;
+}
+.baogia .item .headtitle{
+background: #dc702e;
+}
+.baogia p.title{
+	font-weight:600;
+}
+@media screen and (max-width:1366px){
+#whytous .effimg{
+transform: translateX(-50px);
+}
+#module .effimg{
+transform: translateX(50px);
+}
+}
+
+header .banner .main-slide .btn-gr a{
+	
+	padding: 10px 20px;
+	    font-size: 18px;
+}
+
+.call-ring{
+	position: fixed;
+}
+
+.top-normal .navinfo p a{
+	color: #000 !important;
+}
+
+.call-ring .effect-background{
+	left: -8px;
+	top: -8px;
+}
+
+header .banner.homepage{
+	position: relative;
+    z-index: 2;
+}
+
+#header1 .main-header{
+	position: relative;
+    z-index: 99999;
+}
+#cssmenu > ul > li.has-sub > a{
+	
+    font-weight: bold;
+}
+#cssmenu > ul > li.has-sub > a:hover{
+	color: #f26822;
+}
+
+header .main-header .top.top-normal .row #cssmenu > ul > li > a:hover{
+	color: #f26822;
+}
+
+@media screen and (min-width: 992px){
+#cssmenu{
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
+
+@media screen and (max-width: 768px){
+	.call-ring{
+		
+	}
+	
+}

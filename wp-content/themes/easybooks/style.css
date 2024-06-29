@@ -1,0 +1,471 @@
+/*!
+Theme Name: Easybooks
+Theme URI: http://underscores.me/
+Author: Vu Van Khai
+Author URI: http://vuvankhai.com
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: easybooks
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+.ubermenu-submenu{
+	background: #000 !important;
+}
+
+.ubermenu a.ubermenu-target{
+	color: #fff;
+	font-weight: 600;
+}
+
+
+.top-normal .ubermenu a.ubermenu-target{
+	color: #000;
+}
+
+.top-normal .ubermenu .ubermenu-submenu a.ubermenu-target{
+	color: #fff;
+}
+
+#header1 .nav-topbar .navinfo p a{
+	font-size: 20px !important;
+}
+
+.quatrang {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 15px;
+    list-style: none;
+    border-radius: .25rem;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.quatrang>span {
+    background: #f6f6f6;
+    text-align: center;
+    color: #000;
+    box-shadow: 0px 1px 2px #c5c5c5;
+    border-radius: 3px;
+    text-decoration: none;
+    line-height: 1em;
+    height: 30px;
+    padding: 8px 12px;
+    background: #e67e22;
+    color: #fff;
+}
+
+.quatrang>a {
+    background: #f6f6f6;
+    text-align: center;
+    color: #000;
+    box-shadow: 0px 1px 2px #c5c5c5;
+    border-radius: 3px;
+    text-decoration: none;
+    line-height: 1em;
+    height: 30px;
+    padding: 8px 12px;
+    margin: 0 10px;
+}
+
+#header .nav-topbar .navinfo {
+    padding-left: 5px;
+    float: right;
+}
+
+#header .nav-topbar .navinfo p {
+    margin: 0;
+}
+
+#header .nav-topbar .navinfo p a, strong {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#header .nav-topbar span i {
+    color: #fd9b28;
+    font-size: 30px;
+}
+
+#header .nav-topbar span {
+    float: right;
+}
+
+#mycontent .related .item-new h3 a{
+	font-size: 16px;
+}
+
+#price-easyca .text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#price-easyca .text ul li {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#price-easyca .text ul li i {
+    transform: translateY(0px);
+}
+
+#price-easyca .text ul li p {
+    width: calc(100% - 20px);
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#price-easyca .slide-price-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#price-easyca .slide-price-table .item {
+    background: #fddab4;
+    border-radius: 8px;
+    transition: all ease 0.5s;
+    min-height: 250px;
+    padding: 15px;
+    text-align: center;
+    width: calc(50% - 12px);
+    margin-bottom: 25px;
+}
+
+#price-easyca .slide-price-table .item h3 {
+    color: #0a67b2;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#price-easyca .slide-price-table .item p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+#price-easyca .slide-price-table .item p span {
+    color: #ef6f24;
+    font-size: 24px;
+}
+
+#price-easyca .slide-price-table .item a {
+    width: 130px;
+    background: #ef6f24;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding: 6px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.price_link{
+	display: flex;
+	justify-content: center;
+	margin: 45px 0;
+}
+
+.price_link a{
+	width: 200px;
+    display: block;
+    border-radius: 5px;
+    padding: 7px 0;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
+    background: #c1bbb1;
+}
+
+.price_link a.active{
+    background: #f3673e;
+}
+
+.aligncenter{
+	margin: 0 auto;
+}
+
+.new-detail strong{
+	color: #000;
+}
+
+#p3 {
+  padding: 35px 0;
+  background: url(http://einvoice.fpt.com.vn/wp-content/themes/invoice/images/bg/leave-imformation.jpg) no-repeat;
+  background-size: cover; }
+  /* line 1101, /Users/vuvankhai/Desktop/EasyCA/css/style.scss */
+  #p3 h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 45px;
+    position: relative;
+    width: 100%; }
+    /* line 1110, /Users/vuvankhai/Desktop/EasyCA/css/style.scss */
+    #p3 h2::before {
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 2px;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1bb04b; }
+  /* line 1124, /Users/vuvankhai/Desktop/EasyCA/css/style.scss */
+  #p3 .form-support {
+    width: 100%;
+    max-width: 600px;
+    margin: auto; }
+    /* line 1129, /Users/vuvankhai/Desktop/EasyCA/css/style.scss */
+    #p3 .form-support .row {
+      margin-bottom: 15px; }
+
+#price-easyca .slide-price-table .item h3{
+	font-size: 28px;	
+}
+
+#price-easyca .slide-price-table>h3{
+	width: 100%;
+}
+
+.grecaptcha-badge{
+visibility: collapse !important;
+}
+
+.label-capcha{
+	transform: translatey(7px);
+}
+
+.wpcf7-captcha-captcha-118{
+	transform: translatey(6px);
+}
+
+.gr-capcha{
+	display: flex;
+	height: 38px;
+	border-radius: 4px;
+	background: #fff;
+    padding: 0 15px;
+	width: 100%;
+}
+
+.gr-capcha .wpcf7-captchar{
+	height: 32px;
+	margin-top: 2px;
+}
+
+.gr-capcha .wpcf7-not-valid-tip{
+	position: absolute;
+    white-space: nowrap;
+    top: calc(100% + 2px);
+	left: 0;
+}
+
+#p3 .form-support{
+	width: 620px;
+	max-width: 100%;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #ff1515 !important;
+}
+
+.gr-capcha{
+	position: relative;
+}
+
+.gr-capcha .captcha-118{
+	position: unset;
+}
+
+.gr-capcha{
+	
+}
+@media screen and (max-width: 460px) {
+	h1 {
+		font-size: 1rem;
+	}
+}
+@media screen and (min-width: 960px){
+	.ubermenu-responsive-default.ubermenu {
+	    transform: translateY(5px);
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.mobile-none{
+		display: none;
+	}
+
+	.ubermenu-responsive-toggle{
+		text-align: right !important;
+		color: #fff;
+		outline: none;
+	}
+
+	.ubermenu-responsive-toggle:hover{
+		color: #fff;
+	}
+
+	.ubermenu-main{
+		background: #545454 !important;
+	}
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output{
+	    border-color: #cccccc;
+    color: #fff;
+}
+
+#price-easyca .text ul li{
+	flex-wrap: wrap;
+}
+
+#price-easyca .text ul li ul{
+	display: block;
+	width: 100%;
+	padding-left: 35px;
+}
+
+
+#price-easyca .slide-price-table .item a{
+	    width: 150px;
+	    padding: 10px 0;
+	font-size: 20px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output{
+	border-color: #f15040 !important;
+    color: #ffffff !important;
+    background: #f15140 !important;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output{
+	border-color: #f15040 !important;
+    color: #ffffff !important;
+    background: #f15140 !important;
+}
+
+.ubermenu .ubermenu-colgroup .ubermenu-column, .ubermenu .ubermenu-custom-content-padded, .ubermenu .ubermenu-nonlink, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-submenu-padded, .ubermenu .ubermenu-submenu-type-stack>.ubermenu-item-normal>.ubermenu-target, .ubermenu .ubermenu-target, .ubermenu .ubermenu-widget, .ubermenu-responsive-toggle {
+    padding: 15px 25px 15px 0px !important;
+}
+
+#header1 .nav-topbar span i {
+    transform: rotate(13deg);
+}
+
+.top.top-normal .tv1 h3, .top.top-normal .tv2 h3{
+	color: #000 !important;
+}
+
+.ubermenu .ubermenu-target-text{
+	font-size: 15px !important;
+}
+
+@media screen and (max-width: 768px){
+	.main-header{
+		display: none !important;
+	}
+	
+	#topnav{
+		display: block !important;
+	}
+	
+	#topnav ul {
+    display: flex;
+    justify-content: space-between;
+    float: none;
+		    margin: 0;
+    padding: 0;
+    list-style: none;
+		padding-bottom: 10px;
+}
+	#topnav ul li span {
+    font-size: 12px;
+		text-transform: uppercase;
+    font-weight: 600;
+		display: block;
+		margin-top: 20px;
+}
+	#topnav .logo img{
+		    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+	}
+	
+	#topnav ul li a {
+    display: block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+		    text-align: center;
+		
+    color: #f04f3f;
+}
+	.mob-menu-logo-holder{
+		display: none !important;
+	}
+	.mob-menu-header-holder{
+		background: rgba(0,0,0,0) !important;
+	}
+	
+	.mobmenur-container i {
+    color: #000 !important;
+		transform: translatey(12px) !important;
+}
+}
+
+
+
+
+#newshome {
+  padding: 40px 0 20px 0; }
+  #newshome .item {
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5; }
+    #newshome .item .thumb img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover; }
+    #newshome .item .info {
+      padding: 15px; }
+      #newshome .item .info h3 {
+        line-height: 1; }
+        #newshome .item .info h3 a {
+          color: #db6825;
+          text-decoration: none;
+          font-size: 16px; }
+      #newshome .item .info p {
+        margin: 0;
+        padding: 0; }
+
+
+
+.easy-title{
+	margin-bottom: 40px;
+}
+
+
+

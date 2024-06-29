@@ -1,0 +1,225 @@
+@media screen and (min-width: 992px){
+	#cssmenu .has-sub a.download-menu{
+		color: #fff;
+		background: #fc6b00;
+		background: linear-gradient(to right, #ff9c00, #fc6b00);
+		border-radius: 30px;
+		padding: 10px 20px;
+		transform: translateY(9px);
+	}
+	/*
+	#cssmenu .has-sub a[title='Tải về bản dùng thử']::after{
+		content: "Xi";
+		width: 14px;
+		height: 14px;
+		background: url(../images/icon-download-while.png) center no-repeat;
+		color: rgba(0,0,0,0);
+		margin-left: 5px;
+	}
+	
+	*/
+	
+	header .main-header .top.top-normal .row #cssmenu > ul > li > a.download-menu{
+		color: #fff;
+	}
+	#mycontent .list-news .item .img img{
+		max-height: 230px !important;
+		height: 230px !important;
+	}
+	.fa-download{
+		font-size: 12px;
+		padding-left: 3px;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+  /* line 3, EasyBook/libs/css/responsive.scss */
+  #cssmenu ul {
+    background: #fff; }
+    /* line 6, EasyBook/libs/css/responsive.scss */
+    #cssmenu ul li a {
+      color: #000; }
+  /* line 11, EasyBook/libs/css/responsive.scss */
+  #cssmenu #menu-button {
+    color: #fff;
+    position: absolute;
+    top: -50px;
+    right: 15px;; }
+    /* line 16, EasyBook/libs/css/responsive.scss */
+    #cssmenu #menu-button::before {
+      background: #fff;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      right: 0;
+      top: 26px; }
+    /* line 23, EasyBook/libs/css/responsive.scss */
+    #cssmenu #menu-button::after {
+      background: #fff;
+      right: 0;
+      top: 22px; }
+  /* line 34, EasyBook/libs/css/responsive.scss */
+  header .top.top-normal .row {
+    background: #fff;
+    color: #000000 !important; }
+    /* line 37, EasyBook/libs/css/responsive.scss */
+    header .top.top-normal .row #cssmenu > ul > li > a {
+      color: #000000; }
+  /* line 41, EasyBook/libs/css/responsive.scss */
+  header .top.top-normal .logo {
+    margin-left: 15px; }
+    /* line 44, EasyBook/libs/css/responsive.scss */
+    header .top.top-normal .logo img:first-child {
+      display: none; }
+    /* line 47, EasyBook/libs/css/responsive.scss */
+    header .top.top-normal .logo img:last-child {
+      display: block; }
+  /* line 52, EasyBook/libs/css/responsive.scss */
+  header .top.top-normal #cssmenu {
+    margin-right: 15px; }
+    /* line 54, EasyBook/libs/css/responsive.scss */
+    header .top.top-normal #cssmenu #menu-button {
+      color: #000000;
+      position: absolute;
+      top: -50px;
+      right: 0; }
+      /* line 59, EasyBook/libs/css/responsive.scss */
+      header .top.top-normal #cssmenu #menu-button::before {
+        background: #000000;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        right: 0;
+        top: 26px; }
+      /* line 66, EasyBook/libs/css/responsive.scss */
+      header .top.top-normal #cssmenu #menu-button::after {
+        background: #000000;
+        right: 0;
+        top: 22px; }
+  /* line 75, EasyBook/libs/css/responsive.scss */
+  header .banner {
+    padding-top: 100px;
+    padding-bottom: 70px; }
+    /* line 79, EasyBook/libs/css/responsive.scss */
+    header .banner .main-slide h1 {
+      font-size: 28px; }
+    /* line 83, EasyBook/libs/css/responsive.scss */
+    header .banner.homepage {
+      padding-top: 100px;
+      padding-bottom: 70px; }
+  /* line 88, EasyBook/libs/css/responsive.scss */
+  header .line-border {
+    display: none; }
+  /* line 92, EasyBook/libs/css/responsive.scss */
+  #top-intro {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    /* line 95, EasyBook/libs/css/responsive.scss */
+    #top-intro .main-intro {
+      width: 100%;
+      margin-left: 0; }
+  /* line 101, EasyBook/libs/css/responsive.scss */
+  #highl {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    /* line 106, EasyBook/libs/css/responsive.scss */
+    #highl .main-highl .list .item {
+      width: 100%;
+      height: 260px; }
+      /* line 109, EasyBook/libs/css/responsive.scss */
+      #highl .main-highl .list .item:last-child {
+        height: 285px; }
+  /* line 116, EasyBook/libs/css/responsive.scss */
+  #register {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    /* line 119, EasyBook/libs/css/responsive.scss */
+    #register .main-register {
+      width: 100%;
+      margin-left: 0; }
+      /* line 123, EasyBook/libs/css/responsive.scss */
+      #register .main-register .text h2 {
+        font-size: 30px;
+        margin-top: 0; }
+      /* line 127, EasyBook/libs/css/responsive.scss */
+      #register .main-register .text p {
+        text-align: justify; }
+  /* line 134, EasyBook/libs/css/responsive.scss */
+  #whytous {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    /* line 137, EasyBook/libs/css/responsive.scss */
+    #whytous .effimg {
+      display: none; }
+    /* line 141, EasyBook/libs/css/responsive.scss */
+    #whytous .main-why .tab-content {
+      width: 100%;
+      margin-left: 0; }
+      /* line 145, EasyBook/libs/css/responsive.scss */
+      #whytous .main-why .tab-content .tab-pane.show {
+        flex-wrap: wrap; }
+      /* line 148, EasyBook/libs/css/responsive.scss */
+      #whytous .main-why .tab-content .tab-pane .text {
+        width: 100%; }
+        /* line 150, EasyBook/libs/css/responsive.scss */
+        #whytous .main-why .tab-content .tab-pane .text h2 {
+          padding-top: 0; }
+      /* line 154, EasyBook/libs/css/responsive.scss */
+      #whytous .main-why .tab-content .tab-pane .image {
+        width: 100%; }
+  /* line 162, EasyBook/libs/css/responsive.scss */
+  #module {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    /* line 165, EasyBook/libs/css/responsive.scss */
+    #module .effimg {
+      display: none; }
+    /* line 169, EasyBook/libs/css/responsive.scss */
+    #module .main-module p {
+      padding-bottom: 10px; }
+    /* line 173, EasyBook/libs/css/responsive.scss */
+    #module .main-module .list .item {
+      width: calc(50% - 10px); }
+    /* line 177, EasyBook/libs/css/responsive.scss */
+    #module .main-module .mylink {
+      padding-top: 10px;
+      padding-bottom: 0px; }
+  /* line 187, EasyBook/libs/css/responsive.scss */
+  #footer .main-footer .logo-footer img {
+    display: block;
+    margin: 0 auto; }
+  /* line 199, EasyBook/libs/css/responsive.scss */
+  #mycontent .row-function .text .excerpt h2 {
+    text-align: center; }
+  /* line 207, EasyBook/libs/css/responsive.scss */
+  #mycontent .contact .left-contact {
+    margin-bottom: 30px; }
+    /* line 209, EasyBook/libs/css/responsive.scss */
+    #mycontent .contact .left-contact h2 {
+      text-align: center; }
+  /* line 213, EasyBook/libs/css/responsive.scss */
+  #mycontent .contact .right-contact {
+    margin-left: 0px; }
+    /* line 215, EasyBook/libs/css/responsive.scss */
+    #mycontent .contact .right-contact h2 {
+      text-align: center; }
+    /* line 218, EasyBook/libs/css/responsive.scss */
+    #mycontent .contact .right-contact p {
+      text-align: justify; }
+  /* line 226, EasyBook/libs/css/responsive.scss */
+  #menu-footer h3 {
+    text-align: center; }
+  /* line 230, EasyBook/libs/css/responsive.scss */
+  #menu-footer .list-menu ul {
+    text-align: center; }
+
+    #footer .main-footer {
+        flex-wrap: wrap;
+    }
+        /* line 114, ktmc2/libs/css/responsive.scss */
+        #footer .main-footer > div {
+            width: 100% !important;
+        }
+
+}
+
+/*# sourceMappingURL=responsive.css.map */

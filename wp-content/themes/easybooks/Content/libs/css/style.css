@@ -1,0 +1,1075 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/* line 2, EasyBook/libs/css/style.scss */
+body, * {
+    font-family: 'Open Sans',sans-serif !important;
+}
+
+/* line 8, EasyBook/libs/css/style.scss */
+.list-service {
+	width: 100%;
+	background: #f3f3f3;
+	display: flex;
+    justify-content: space-between;       	
+    opacity: 1;
+	z-index: 999999;
+	min-height: 71px;           
+}
+.list-service .item {
+    padding: 15px;
+}
+.list-service .item a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+	flex-wrap: wrap;
+}
+.list-service .item a img {
+    margin-right: 10px;
+}
+#all-product {
+	background: #f3f3f3;
+	padding: 20px 0;
+}
+#all-product h2 {
+	color: #e37132;
+	padding: 5px 0 10px 0;
+	font-size: 28px
+}
+header {
+  background: url(../images/slide.png);
+  background-size: cover;
+  position: relative;
+  z-index: 3; }
+  /* line 13, EasyBook/libs/css/style.scss */
+  header .line-border {
+    background: rgba(255, 255, 255, 0.4);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 76px; }
+  /* line 21, EasyBook/libs/css/style.scss */
+  header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1; }
+  /* line 31, EasyBook/libs/css/style.scss */
+  header .main-header {
+    position: inherit;
+    z-index: 2; }
+    /* line 34, EasyBook/libs/css/style.scss */
+    header .main-header .top {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999999; }
+      /* line 40, EasyBook/libs/css/style.scss */
+      header .main-header .top .row {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        -webkit-transition: all .4s linear;
+        -moz-transition: all .4s linear;
+        transition: all .4s linear; }
+      /* line 48, EasyBook/libs/css/style.scss */
+      header .main-header .top .logo {
+        margin-left: 15px;
+        height: 54px;
+        display: flex;
+        align-items: center; }
+        /* line 54, EasyBook/libs/css/style.scss */
+        header .main-header .top .logo img:first-child {
+          display: block; }
+        /* line 57, EasyBook/libs/css/style.scss */
+        header .main-header .top .logo img:last-child {
+          display: none; }
+      /* line 62, EasyBook/libs/css/style.scss */
+      header .main-header .top #cssmenu {
+        margin-right: 15px; }
+      /* line 65, EasyBook/libs/css/style.scss */
+      header .main-header .top.top-normal {
+        box-shadow: 0px 2px 5px #c7c2c2; }
+        /* line 67, EasyBook/libs/css/style.scss */
+        header .main-header .top.top-normal .row {
+          background: #fff;
+          color: #000000 !important;
+          padding-top: 5px;
+          padding-bottom: 5px; }
+          /* line 72, EasyBook/libs/css/style.scss */
+          header .main-header .top.top-normal .row #cssmenu > ul > li > a {
+            color: #000000; }
+        /* line 78, EasyBook/libs/css/style.scss */
+        header .main-header .top.top-normal .logo img:first-child {
+          display: none; }
+        /* line 81, EasyBook/libs/css/style.scss */
+        header .main-header .top.top-normal .logo img:last-child {
+          display: block; }
+  /* line 89, EasyBook/libs/css/style.scss */
+  header .banner {
+    padding-top: 180px;
+    padding-bottom: 170px; }
+    /* line 92, EasyBook/libs/css/style.scss */
+    header .banner.homepage {
+      padding-top: 200px;
+      padding-bottom: 200px; }
+      /* line 96, EasyBook/libs/css/style.scss */
+        header .banner.homepage .main-slide h1 {
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+    /* line 102, EasyBook/libs/css/style.scss */
+    header .banner .main-slide h1 {
+      color: #fff;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 600; }
+    /* line 108, EasyBook/libs/css/style.scss */
+    header .banner .main-slide .btn-gr {
+      display: flex;
+      justify-content: center; }
+      /* line 111, EasyBook/libs/css/style.scss */
+      header .banner .main-slide .btn-gr a {
+        color: #fff;
+        border: 2px solid #f26f21;
+        border-radius: 3px;
+        text-decoration: none;
+        padding: 5px 10px;
+        margin: 0 10px;
+        min-width: 147px;
+        text-align: center;
+        transition: .2s all linear; }
+        /* line 121, EasyBook/libs/css/style.scss */
+        header .banner .main-slide .btn-gr a:first-child {
+          background: #f26f21; }
+        /* line 124, EasyBook/libs/css/style.scss */
+        header .banner .main-slide .btn-gr a:hover {
+          background: #f26f21; }
+
+/* line 133, EasyBook/libs/css/style.scss */
+#top-intro {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #eaeaea; }
+  /* line 137, EasyBook/libs/css/style.scss */
+  #top-intro .main-intro {
+    
+	}
+    /* line 141, EasyBook/libs/css/style.scss */
+    #top-intro .main-intro .image img {
+      max-width: 100%; }
+    /* line 146, EasyBook/libs/css/style.scss */
+    #top-intro .main-intro .text h2 {
+      font-weight: 600;
+      padding-bottom: 20px;
+      text-align: left; }
+    /* line 151, EasyBook/libs/css/style.scss */
+    #top-intro .main-intro .text p {
+      font-size: 16px;
+      text-align: left; }
+
+/* line 159, EasyBook/libs/css/style.scss */
+#highl {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #eaeaea; }
+  /* line 164, EasyBook/libs/css/style.scss */
+  #highl .main-highl h2 {
+    font-weight: 600;
+    padding-bottom: 50px;
+    text-align: center; }
+  /* line 169, EasyBook/libs/css/style.scss */
+  #highl .main-highl .list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    /* line 173, EasyBook/libs/css/style.scss */
+    #highl .main-highl .list .item {
+		box-shadow: 1px 5px 5px #bdbdbd;
+        transform: translate(0px, -5px);
+      width: 32%;
+      cursor: pointer;
+      background: #ffb38e;
+      margin-bottom: 25px;
+      display: flex;
+      height: 250px;
+      padding-top: 30px;
+      transition: .4s; }
+      /* line 182, EasyBook/libs/css/style.scss */
+      #highl .main-highl .list .item .image {
+        width: 80px; }
+        /* line 184, EasyBook/libs/css/style.scss */
+        #highl .main-highl .list .item .image .imgeff {
+          box-shadow: 1px 1px 1px #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    line-height: 46px;
+    text-align: center;
+		  }
+      /* line 196, EasyBook/libs/css/style.scss */
+      #highl .main-highl .list .item .text {
+        width: calc(100% - 110px); }
+        /* line 198, EasyBook/libs/css/style.scss */
+        #highl .main-highl .list .item .text p {
+          font-size: 16px;
+          text-align: left; }
+      /* line 203, EasyBook/libs/css/style.scss */
+      #highl .main-highl .list .item:hover {
+         }
+
+/* line 212, EasyBook/libs/css/style.scss */
+#whytous {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #eaeaea;
+  position: relative; }
+  /* line 218, EasyBook/libs/css/style.scss */
+  #whytous .main-why h2 {
+    font-weight: 600;
+    padding-bottom: 50px;
+    text-align: center; }
+  /* line 223, EasyBook/libs/css/style.scss */
+  #whytous .main-why #myTab {
+    justify-content: center;
+    border: 0; }
+    /* line 226, EasyBook/libs/css/style.scss */
+    #whytous .main-why #myTab .nav-item {
+      margin: 0 7px;
+      border-radius: 25px;
+      overflow: hidden; }
+      /* line 230, EasyBook/libs/css/style.scss */
+      #whytous .main-why #myTab .nav-item .nav-link {
+        border: 0;
+        color: #fc6b00;
+		font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 600; }
+        /* line 235, EasyBook/libs/css/style.scss */
+        #whytous .main-why #myTab .nav-item .nav-link:hover {
+          border: 0; }
+      /* line 239, EasyBook/libs/css/style.scss */
+      #whytous .main-why #myTab .nav-item .active {
+        color: #fff;
+        background: #fc6b00;
+        background: linear-gradient(to right, #ff9c00, #fc6b00);
+        padding-left: 30px;
+        padding-right: 30px; }
+  /* line 249, EasyBook/libs/css/style.scss */
+  #whytous .main-why .tab-content {
+    
+     }
+    /* line 253, EasyBook/libs/css/style.scss */
+    #whytous .main-why .tab-content .tab-pane {
+      display: none;
+      justify-content: space-between; }
+      /* line 256, EasyBook/libs/css/style.scss */
+      #whytous .main-why .tab-content .tab-pane .text {
+        width: 50%; }
+        /* line 258, EasyBook/libs/css/style.scss */
+        #whytous .main-why .tab-content .tab-pane .text h2 {
+          font-weight: 600;
+          padding-bottom: 20px;
+          text-align: left;
+          font-size: 27px; }
+      /* line 267, EasyBook/libs/css/style.scss */
+      #whytous .main-why .tab-content .tab-pane .image {
+        width: 30%; }
+        /* line 269, EasyBook/libs/css/style.scss */
+        #whytous .main-why .tab-content .tab-pane .image img {
+          width: 100%; }
+      /* line 273, EasyBook/libs/css/style.scss */
+      #whytous .main-why .tab-content .tab-pane.show {
+        display: flex; }
+  /* line 279, EasyBook/libs/css/style.scss */
+  #whytous .effimg {
+    position: absolute;
+    left: 0;
+    top: 20%; }
+
+/* line 287, EasyBook/libs/css/style.scss */
+#module {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative; }
+  /* line 292, EasyBook/libs/css/style.scss */
+  #module .main-module h2 {
+    font-weight: 600;
+    text-align: center; }
+  /* line 296, EasyBook/libs/css/style.scss */
+  #module .main-module p {
+    text-align: center;
+    padding-bottom: 50px; }
+  /* line 300, EasyBook/libs/css/style.scss */
+  #module .main-module .list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    /* line 304, EasyBook/libs/css/style.scss */
+    #module .main-module .list .item {
+      cursor: pointer;
+      background: #fff;
+      width: calc(25% - 20px);
+      box-shadow: -2px 4px 20px #efbd9e;
+      margin-bottom: 30px;
+      transition: .4s; }
+      /* line 311, EasyBook/libs/css/style.scss */
+      #module .main-module .list .item p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 88px; }
+      /* line 321, EasyBook/libs/css/style.scss */
+      #module .main-module .list .item:hover {
+        box-shadow: -2px 4px 20px #af8870;
+        transform: translate(-2px, 1px); }
+  /* line 327, EasyBook/libs/css/style.scss */
+  #module .main-module .mylink {
+    display: none;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px; }
+    /* line 332, EasyBook/libs/css/style.scss */
+    #module .main-module .mylink a {
+      color: #f26f21;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 600;
+      border: 1px solid #ccc;
+      padding: 10px 25px;
+      border-radius: 5px;
+      font-size: 15px; }
+  /* line 344, EasyBook/libs/css/style.scss */
+  #module .effimg {
+    position: absolute;
+    right: 0;
+    top: 20%; }
+
+/* line 352, EasyBook/libs/css/style.scss */
+#register {
+  background: #000;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  /* line 356, EasyBook/libs/css/style.scss */
+  #register .main-register {
+     }
+    /* line 360, EasyBook/libs/css/style.scss */
+    #register .main-register .text h2 {
+      color: #fff;
+      font-weight: 600;
+      font-size: 48px;
+      margin-top: 70px; }
+    /* line 366, EasyBook/libs/css/style.scss */
+    #register .main-register .text p {
+      color: #f26f21;
+      font-size: 16px; }
+    /* line 371, EasyBook/libs/css/style.scss */
+    #register .main-register .re-button {
+      background: url(../images/bg-button.png) no-repeat;
+      width: 236px;
+      background-size: cover;
+      display: block;
+      margin: 0 auto;
+		    padding-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+	  }
+      /* line 378, EasyBook/libs/css/style.scss */
+      #register .main-register .re-button p {
+        color: #fff;
+        padding-top: 50px;
+        font-size: 30px;
+        width: 180px;
+        text-align: center;
+        margin-left: 21px;
+        font-weight: bold; }
+      /* line 387, EasyBook/libs/css/style.scss */
+      #register .main-register .re-button label {
+        height: 4px;
+        width: 155px;
+        background: #fff;
+        display: block;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        border-radius: 5px; }
+      /* line 396, EasyBook/libs/css/style.scss */
+      #register .main-register .re-button a {
+        text-decoration: none;
+        color: #f26f21;
+        background: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 7px 15px;
+        border-radius: 25px;
+        margin-left: 37px; }
+
+/* line 410, EasyBook/libs/css/style.scss */
+#menu-footer {
+  background: #191919;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+  /* line 414, EasyBook/libs/css/style.scss */
+  #menu-footer h3 {
+    font-size: 18px;
+    color: #ececec;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  /* line 422, EasyBook/libs/css/style.scss */
+  #menu-footer .list-menu ul {
+    margin: 0;
+    padding: 0; }
+    /* line 425, EasyBook/libs/css/style.scss */
+    #menu-footer .list-menu ul li {
+      list-style: none;
+      margin-bottom: 15px; }
+      /* line 428, EasyBook/libs/css/style.scss */
+      #menu-footer .list-menu ul li a {
+        color: #c8c8c8;
+        text-decoration: none; }
+
+/* line 437, EasyBook/libs/css/style.scss */
+#footer {
+  background: #363738;
+  padding-bottom: 60px;
+  font-size: 14px;
+  padding-top: 70px; }
+  /* line 473, ktmc2/libs/css/style.scss */
+  #footer .main-footer {
+    display: flex;
+    justify-content: space-between; }
+    /* line 476, ktmc2/libs/css/style.scss */
+    #footer .main-footer div {
+      max-width: 325px; }
+  /* line 480, ktmc2/libs/css/style.scss */
+  #footer img {
+    padding-bottom: 20px; }
+  /* line 483, ktmc2/libs/css/style.scss */
+  #footer p {
+    color: #b6b7bf; }
+    /* line 485, ktmc2/libs/css/style.scss */
+    #footer p i {
+      width: 15px; }
+      /* line 487, ktmc2/libs/css/style.scss */
+      #footer p i.fa-envelope-o {
+        font-size: 13px; }
+    /* line 491, ktmc2/libs/css/style.scss */
+    #footer p.copyright {
+      text-align: center;
+      font-size: 14px; }
+  /* line 496, ktmc2/libs/css/style.scss */
+  #footer h4 {
+    color: #ebedf2;
+	font-size: 14px;
+    margin-bottom: 15px; }
+  /* line 500, ktmc2/libs/css/style.scss */
+  #footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 504, ktmc2/libs/css/style.scss */
+    #footer ul li {
+      padding-bottom: 7px; }
+      /* line 506, ktmc2/libs/css/style.scss */
+      #footer ul li a {
+        text-decoration: none;
+        color: #b6b7bf; }
+  /* line 512, ktmc2/libs/css/style.scss */
+  #footer input {
+    width: calc(100% - 85px);
+    outline: none;
+    padding-left: 5px;
+    background: #363738;
+    border: 1px solid #b6b7bf;
+    color: #b6b7bf; }
+  /* line 520, ktmc2/libs/css/style.scss */
+  #footer button {
+    outline: none;
+	width: 85px;
+    border: 0;
+    background: #fd7800;
+    color: #fff;
+    padding: 2px 15px;
+    cursor: pointer; }
+  /* line 529, ktmc2/libs/css/style.scss */
+  #footer .social-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative; }
+    /* line 535, ktmc2/libs/css/style.scss */
+    #footer .social-icons::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background: #525254;
+      top: calc(50% - 2px);
+      z-index: 1; }
+    /* line 544, ktmc2/libs/css/style.scss */
+    #footer .social-icons li {
+      position: static;
+      z-index: 2;
+      padding: 0 5px;
+      display: inline-block;
+      background: #363738; }
+      /* line 550, ktmc2/libs/css/style.scss */
+      #footer .social-icons li a {
+        text-decoration: none; }
+        /* line 552, ktmc2/libs/css/style.scss */
+        #footer .social-icons li a i {
+          font-size: 34px; }
+      /* line 556, ktmc2/libs/css/style.scss */
+      #footer .social-icons li:nth-child(1) {
+        padding-left: 20px; }
+        /* line 560, ktmc2/libs/css/style.scss */
+        #footer .social-icons li:nth-child(1):hover a i {
+          color: #3b5998; }
+      /* line 569, ktmc2/libs/css/style.scss */
+      #footer .social-icons li:nth-child(2):hover a i {
+        color: #8a4298; }
+      /* line 575, ktmc2/libs/css/style.scss */
+      #footer .social-icons li:nth-child(3) {
+        padding-right: 20px; }
+        /* line 579, ktmc2/libs/css/style.scss */
+        #footer .social-icons li:nth-child(3):hover a i {
+          color: #c61b21; }
+
+/* line 473, EasyBook/libs/css/style.scss */
+#mycontent {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+  /* line 477, EasyBook/libs/css/style.scss */
+  #mycontent .list-news .item {
+    margin-top: 30px;
+    padding-bottom: 5px;
+    transition: box-shadow .3s ease; }
+    /* line 481, EasyBook/libs/css/style.scss */
+    #mycontent .list-news .item .img {
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      overflow: hidden; }
+      /* line 485, EasyBook/libs/css/style.scss */
+      #mycontent .list-news .item .img img {
+        width: 100%;
+		object-fit: cover;
+        transition: .4s all linear; }
+      /* line 490, EasyBook/libs/css/style.scss */
+      #mycontent .list-news .item .img:hover img {
+        transform: scale(1.1); }
+    /* line 495, EasyBook/libs/css/style.scss */
+    #mycontent .list-news .item .info {
+      padding-left: 10px;
+      padding-right: 10px; }
+      /* line 498, EasyBook/libs/css/style.scss */
+      #mycontent .list-news .item .info .inline-block {
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #6f6f6f; }
+        /* line 503, EasyBook/libs/css/style.scss */
+        #mycontent .list-news .item .info .inline-block label {
+          margin-bottom: 0; }
+        /* line 506, EasyBook/libs/css/style.scss */
+        #mycontent .list-news .item .info .inline-block i {
+          font-size: 13px;
+          margin-left: 5px; }
+      /* line 512, EasyBook/libs/css/style.scss */
+      #mycontent .list-news .item .info h3 a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left; }
+      /* line 520, EasyBook/libs/css/style.scss */
+      #mycontent .list-news .item .info p {
+        font-size: 16px;
+        text-align: left; }
+    /* line 525, EasyBook/libs/css/style.scss */
+    #mycontent .list-news .item:hover {
+      box-shadow: 0px 3px 5px #f7f3ef; }
+  /* line 530, EasyBook/libs/css/style.scss */
+  #mycontent .my-navigation {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px; }
+    /* line 535, EasyBook/libs/css/style.scss */
+    #mycontent .my-navigation .page-item a {
+      color: #000000;
+      font-size: 14px; }
+    /* line 540, EasyBook/libs/css/style.scss */
+    #mycontent .my-navigation .page-item.disabled a {
+      color: #f15040; }
+  /* line 546, EasyBook/libs/css/style.scss */
+  #mycontent .row-function {
+    margin-left: -15px;
+    margin-right: -15px;
+     }
+    /* line 553, EasyBook/libs/css/style.scss */
+    #mycontent .row-function .img img {
+      width: 100%; }
+    /* line 557, EasyBook/libs/css/style.scss */
+    #mycontent .row-function .text {
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      /* line 561, EasyBook/libs/css/style.scss */
+      #mycontent .row-function .text h2 {
+        font-size: 30px;
+        font-weight: bold; }
+      /* line 565, EasyBook/libs/css/style.scss */
+      #mycontent .row-function .text p {
+        font-size: 16px;
+        text-align: justify;
+      }
+    /* line 569, EasyBook/libs/css/style.scss */
+    #mycontent .row-function:last-child {
+      border: 0; }
+  /* line 574, EasyBook/libs/css/style.scss */
+  #mycontent .contact {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    /* line 578, EasyBook/libs/css/style.scss */
+    #mycontent .contact .left-contact h2 {
+      font-size: 26px;
+      font-weight: 600;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px; }
+    /* line 585, EasyBook/libs/css/style.scss */
+    #mycontent .contact .left-contact p i {
+      width: 16px;
+      text-align: center; }
+      /* line 588, EasyBook/libs/css/style.scss */
+      #mycontent .contact .left-contact p i.fa-envelope {
+        font-size: 12px; }
+    /* line 594, EasyBook/libs/css/style.scss */
+    #mycontent .contact .right-contact {
+      margin-left: 40px; }
+      /* line 596, EasyBook/libs/css/style.scss */
+      #mycontent .contact .right-contact h2 {
+        font-size: 26px;
+        font-weight: 600;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px; }
+      /* line 602, EasyBook/libs/css/style.scss */
+      #mycontent .contact .right-contact .submit-contact {
+        margin-top: 20px;
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        background-color: #f67f3c;
+        border-color: #f67f3c;
+        margin-top: 30px;
+        border-radius: 44px;
+        height: 44px; }
+        /* line 612, EasyBook/libs/css/style.scss */
+        #mycontent .contact .right-contact .submit-contact:hover {
+          background-color: #f67f3c;
+          border-color: #f67f3c; }
+  /* line 620, EasyBook/libs/css/style.scss */
+  #mycontent .new-detail img {
+    max-width: 100%;
+height: auto}
+  /* line 625, EasyBook/libs/css/style.scss */
+  #mycontent .related h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 10px 10px 0; }
+  /* line 631, EasyBook/libs/css/style.scss */
+  #mycontent .related .item-new {
+    box-shadow: 0px 2px 5px #e6d8d5;
+    margin-bottom: 20px; }
+    /* line 634, EasyBook/libs/css/style.scss */
+    #mycontent .related .item-new h3 {
+      padding: 0 5px 10px;
+      min-height: 62px; }
+      /* line 637, EasyBook/libs/css/style.scss */
+      #mycontent .related .item-new h3 a {
+        color: #000000;
+        font-size: 18px;
+        display: block;
+        padding-top: 10px;
+        text-decoration: none; }
+    /* line 646, EasyBook/libs/css/style.scss */
+    #mycontent .related .item-new .img img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover; }
+
+/* line 657, EasyBook/libs/css/style.scss */
+.back-to-top {
+  box-shadow: 0px 2px 5px #ccc;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  border: 1px solid #e7e7e7;
+  outline: none;
+  border-radius: 25px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #fff;
+  display: none;
+  cursor: pointer; }
+  /* line 672, EasyBook/libs/css/style.scss */
+  .back-to-top i {
+    color: #da2315; }
+
+/* line 679, EasyBook/libs/css/style.scss */
+.baogia p.title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 50px; }
+
+/* line 685, EasyBook/libs/css/style.scss */
+.baogia .item {
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  transition: .3s all linear;
+  cursor: pointer; }
+  /* line 692, EasyBook/libs/css/style.scss */
+  .baogia .item .headtitle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #0072ff;
+    color: #fff;
+    text-align: center; }
+    /* line 698, EasyBook/libs/css/style.scss */
+    .baogia .item .headtitle h4 {
+      font-size: 30px;
+      font-weight: 600; }
+    /* line 702, EasyBook/libs/css/style.scss */
+    .baogia .item .headtitle .price {
+      font-size: 38px;
+      font-weight: bold; }
+    /* line 706, EasyBook/libs/css/style.scss */
+    .baogia .item .headtitle p {
+      font-size: 16px; }
+  /* line 711, EasyBook/libs/css/style.scss */
+  .baogia .item .list ul {
+    margin: 0 30px;
+    padding: 0; }
+    /* line 714, EasyBook/libs/css/style.scss */
+    .baogia .item .list ul li {
+      list-style: none;
+      text-align: center;
+      border-bottom: 1px solid #e7e7e7;
+      padding: 15px 0;
+      font-size: 14px; }
+      /* line 720, EasyBook/libs/css/style.scss */
+      .baogia .item .list ul li i {
+        color: #f04d40;
+        font-size: 12px;
+        margin-right: 5px; }
+      /* line 725, EasyBook/libs/css/style.scss */
+      .baogia .item .list ul li:last-child {
+        border: 0; }
+  /* line 731, EasyBook/libs/css/style.scss */
+  .baogia .item:hover {
+    border: 1px solid #f1f1f1;
+    box-shadow: -1px 5px 20px #eae3e3;
+    transform: translate(5px, -7px); }
+
+/* line 740, EasyBook/libs/css/style.scss */
+.desocial {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px; }
+  /* line 744, EasyBook/libs/css/style.scss */
+  .desocial .fa {
+    font-size: 26px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 4px;
+    height: 40px;
+    line-height: 40px;
+    transition: .3s all linear; }
+  /* line 755, EasyBook/libs/css/style.scss */
+  .desocial .fa:hover {
+    opacity: 0.7;
+    transform: translateY(-4px); }
+  /* line 761, EasyBook/libs/css/style.scss */
+  .desocial .fa-facebook {
+    background: #3B5998;
+    color: white; }
+  /* line 766, EasyBook/libs/css/style.scss */
+  .desocial .fa-twitter {
+    background: #55ACEE;
+    color: white; }
+  /* line 771, EasyBook/libs/css/style.scss */
+  .desocial .fa-google {
+    background: #dd4b39;
+    color: white; }
+  /* line 776, EasyBook/libs/css/style.scss */
+  .desocial .fa-linkedin {
+    background: #007bb5;
+    color: white; }
+  /* line 781, EasyBook/libs/css/style.scss */
+  .desocial .fa-youtube {
+    background: #bb0000;
+    color: white; }
+  /* line 786, EasyBook/libs/css/style.scss */
+  .desocial .fa-instagram {
+    background: #125688;
+    color: white; }
+  /* line 791, EasyBook/libs/css/style.scss */
+  .desocial .fa-pinterest {
+    background: #cb2027;
+    color: white; }
+  /* line 796, EasyBook/libs/css/style.scss */
+  .desocial .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+  /* line 802, EasyBook/libs/css/style.scss */
+  .desocial .fa-skype {
+    background: #00aff0;
+    color: white; }
+  /* line 807, EasyBook/libs/css/style.scss */
+  .desocial .fa-android {
+    background: #a4c639;
+    color: white; }
+  /* line 812, EasyBook/libs/css/style.scss */
+  .desocial .fa-dribbble {
+    background: #ea4c89;
+    color: white; }
+  /* line 817, EasyBook/libs/css/style.scss */
+  .desocial .fa-vimeo {
+    background: #45bbff;
+    color: white; }
+  /* line 822, EasyBook/libs/css/style.scss */
+  .desocial .fa-tumblr {
+    background: #2c4762;
+    color: white; }
+  /* line 827, EasyBook/libs/css/style.scss */
+  .desocial .fa-vine {
+    background: #00b489;
+    color: white; }
+  /* line 832, EasyBook/libs/css/style.scss */
+  .desocial .fa-foursquare {
+    background: #45bbff;
+    color: white; }
+  /* line 837, EasyBook/libs/css/style.scss */
+  .desocial .fa-stumbleupon {
+    background: #eb4924;
+    color: white; }
+  /* line 842, EasyBook/libs/css/style.scss */
+  .desocial .fa-flickr {
+    background: #f40083;
+    color: white; }
+  /* line 847, EasyBook/libs/css/style.scss */
+  .desocial .fa-yahoo {
+    background: #430297;
+    color: white; }
+  /* line 852, EasyBook/libs/css/style.scss */
+  .desocial .fa-soundcloud {
+    background: #ff5500;
+    color: white; }
+  /* line 857, EasyBook/libs/css/style.scss */
+  .desocial .fa-reddit {
+    background: #ff5700;
+    color: white; }
+  /* line 862, EasyBook/libs/css/style.scss */
+  .desocial .fa-rss {
+    background: #ff6600;
+    color: white; }
+
+
+
+.call-ring {
+    width: 200px;
+    border: 1px solid #ccc;
+    background: #eee;
+    display: flex;
+    border-radius: 25px;
+    bottom: 15px;
+    left: 15px;
+	margin-top: 6px;
+}
+
+    .call-ring .box-call {
+        background: #fb773d;
+        color: #fff;
+        font-size: 22px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        position: relative;
+        z-index: 999;
+    }
+
+        .call-ring .box-call img {
+            width: 300%;
+            position: absolute;
+            left: -100%;
+            top: calc(-100% + 2px);
+        }
+
+    .call-ring label {
+        line-height: 35px;
+        padding-left: 5px;
+        color: #fb773d;
+        font-weight: 600;
+        font-size: 20px;
+        margin-left: 2px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .call-ring .effect-background {
+        position: absolute;
+        background: rgba(251, 119, 61, 0.6);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        top: -2px;
+        left: 5px;
+        animation-iteration-count: infinite;
+        z-index: 1;
+    }
+
+
+.pagination .page-item {
+    display: flex;
+    justify-content: center;
+}
+    .pagination .page-item span {
+        background: #ccc;
+        margin: 0 5px;
+        width: 32px;
+        height: 32px;
+        display: block;
+        line-height: 32px;
+        text-align: center;
+        box-shadow: 0px 0px 2px #793b2e;
+        font-size: 13px;
+    }
+    .pagination .page-item a {
+        background: #ccc;
+        margin: 0 5px;
+        width: 32px;
+        height: 32px;
+        display: block;
+        line-height: 32px;
+        text-align: center;
+        text-decoration: none;
+        transition: .2s;
+        box-shadow: 0px 0px 2px #793b2e;
+        font-size: 13px;
+    }
+    .pagination .page-item .current {
+        background: #f78a3c;
+        color: #fff;
+    }
+
+    .pagination .page-item a:hover {
+        background: #f78a3c;
+        color: #fff !important;
+    }
+
+
+#header1 .main-header{
+padding-top: 80px !important;
+padding-bottom: 80px !important;
+    background-size: cover !important;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+header .banner.homepage .main-slide h1{
+	line-height: 1.6;
+}
+
+#top-intro .main-intro .text h2, #highl .main-highl h2, #whytous .main-why h2, #whytous .main-why .tab-content .tab-pane .text h2, #module .main-module h2{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal;
+}
+
+#top-intro .main-intro .text h2{
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Open Sans',sans-serif !important;
+}
+#whytous .main-why .tab-content .tab-pane .text h2{
+	
+}
+#whytous .main-why .tab-content .tab-pane.show{
+	    justify-content: space-around;
+}
+.t-p{
+	padding-top: 50px;
+}
+
+.list-tn:nth-child(even){
+	background: #f9fafb;
+}
+
+#mycontent .row-function .img img{
+	max-width: 320px;
+	display: block;
+	margin: 0 auto;
+}
+
+#top-intro .main-intro .text h2{
+	font-family: 'Roboto', sans-serif !important;
+}
+
+#mycontent .row-function .text h2{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal;
+}
+#mycontent .list-news .item .info h3{
+	line-height: 1;
+}
+#mycontent .list-news .item .info h3 a{
+	font-family: 'Roboto', sans-serif !important;
+}
+#mycontent .contact .right-contact h2{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal;
+}
+#mycontent .contact .left-contact h2{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal;
+}
+
+.list-tn{
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+header .main-header{
+	z-index: 3;
+	position: relative;
+}
+header .banner{
+	z-index: 2;
+	position: relative;
+}
+
+header .banner.homepage {
+    padding-top: 50px;
+}
