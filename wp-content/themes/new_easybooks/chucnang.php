@@ -19,7 +19,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon1.png 2x"
-                alt="" />Kế toán tiền mặt và ngân hàng
+                alt="alt-image" />Kế toán tiền mặt và ngân hàng
             </div>
             <ul class="function-content">
               <li>
@@ -47,7 +47,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img1.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img1.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon2.png 2x"
-                alt="" />Kế toán mua hàng
+                alt="alt-image" />Kế toán mua hàng
             </div>
             <ul class="function-content">
               <li>
@@ -87,7 +87,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img2.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img2.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon3.png 2x"
-                alt="" />Kế toán kho
+                alt="alt-image" />Kế toán kho
             </div>
             <ul class="function-content">
               <li>
@@ -127,7 +127,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img3.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img3.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -139,7 +139,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon4.png 2x"
-                alt="" />Kế toán bán hàng
+                alt="alt-image" />Kế toán bán hàng
             </div>
             <ul class="function-content">
               <li>
@@ -166,7 +166,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img4.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img4.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -178,7 +178,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon5.png 2x"
-                alt="" />Kế toán công cụ dụng cụ
+                alt="alt-image" />Kế toán công cụ dụng cụ
             </div>
             <ul class="function-content">
               <li>
@@ -206,7 +206,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img5.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img5.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -218,7 +218,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon6.png 2x"
-                alt="" />Kế toán tài sản cố định
+                alt="alt-image" />Kế toán tài sản cố định
             </div>
             <ul class="function-content">
               <li>Đáp ứng các nghiệp vụ kế toán TSCĐ</li>
@@ -245,7 +245,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img6.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img6.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -257,7 +257,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon7.png 2x"
-                alt="" />Kế toán tổng hợp
+                alt="alt-image" />Kế toán tổng hợp
             </div>
             <ul class="function-content">
               <li>
@@ -286,7 +286,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img7.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img7.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -298,7 +298,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon8.png 2x"
-                alt="" />Kế toán hợp đồng
+                alt="alt-image" />Kế toán hợp đồng
             </div>
             <ul class="function-content">
               <li>
@@ -326,7 +326,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img8.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img8.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -338,7 +338,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon9.png 2x"
-                alt="" />Kế toán giá thành
+                alt="alt-image" />Kế toán giá thành
             </div>
             <ul class="function-content">
               <li>
@@ -367,7 +367,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img9.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img9.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -379,7 +379,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon10.png 2x"
-                alt="" />Tích hợp hóa đơn điện tử
+                alt="alt-image" />Tích hợp hóa đơn điện tử
             </div>
             <ul class="function-content">
               <li>
@@ -409,7 +409,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img10.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img10.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>
@@ -421,7 +421,7 @@ get_header();
           <div class="function-info">
             <div class="function-name">
               <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-icon11.png 2x"
-                alt="" />Thuế
+                alt="alt-image" />Thuế
             </div>
             <ul class="function-content">
               <li>
@@ -445,7 +445,7 @@ get_header();
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img11.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/chucnang/chucnang-img11.png 2x" alt="alt-image" />
         </div>
       </div>
     </div>

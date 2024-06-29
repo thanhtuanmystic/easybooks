@@ -4,7 +4,7 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner1.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner1.png 2x" alt="alt" />
           <div class="banner-btn">
             <a target="_blank" href="https://dangkydemo.easybooks.vn/" class="trial-btn">
               <div>Đăng ký dùng thử</div>
@@ -13,17 +13,17 @@
               <div>Tư vấn miễn phí</div>
             </a>
             <a href="#esb_video" class="playvideo-btn scroll-link">
-              <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-playvideo-icon.png 2x" alt="" />
+              <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-playvideo-icon.png 2x" alt="alt" />
               <div>Play Video</div>
             </a>
           </div>
         </div>
         <div class="swiper-slide">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner2.png 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner2.png 2x" alt="alt" />
 
         </div>
         <div class="swiper-slide">
-          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner3.jpg 2x" alt="" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner3.jpg 2x" alt="alt" />
         </div>
       </div>
       <div class="swiper-button-next"></div>
@@ -79,7 +79,7 @@
   <div class="container">
     <div class="row d-flex justify-content-center align-items-center flex-reverse-mobile gy-4">
       <div class="col-lg-6">
-        <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/map-img.png 2x" alt="" />
+        <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/map-img.png 2x" alt="alt" />
       </div>
       <div class="col-lg-6">
         <h2 class="esb-title">
@@ -87,23 +87,23 @@
         </h2>
         <div class="for-all-right">
           <div class="for-all-box">
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/thuongmai-icon.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/thuongmai-icon.png 2x" alt="alt" />
             <div class="for-all-name">Thương mại</div>
           </div>
           <div class="for-all-box">
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/dichvu-icon.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/dichvu-icon.png 2x" alt="alt" />
             <div class="for-all-name">Dịch vụ</div>
           </div>
           <div class="for-all-box">
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/xaydung-icon.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/xaydung-icon.png 2x" alt="alt" />
             <div class="for-all-name">Xây dựng</div>
           </div>
           <div class="for-all-box">
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/sanxuat-icon.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/sanxuat-icon.png 2x" alt="alt" />
             <div class="for-all-name">Sản xuất</div>
           </div>
           <div class="for-all-box">
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/tonghop-icon.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/tonghop-icon.png 2x" alt="alt" />
             <div class="for-all-name">Tổng hợp</div>
           </div>
         </div>
@@ -148,7 +148,7 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon1.png 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon1.png 2x" alt="alt" />
                 <div class="solution-name">Nhập liệu thông minh</div>
               </div>
               <div class="solution-des">
@@ -168,7 +168,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="" /> -->
+            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="alt" /> -->
             <video style="width: 100%;
                                 border-radius: 10px;" loop playsinline autoplay muted>
               <source src="<?php bloginfo('template_directory'); ?>/assets/img/solution-vid1.mp4" type="video/mp4">
@@ -181,7 +181,7 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon2.png 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon2.png 2x" alt="alt" />
                 <div class="solution-name">Tích hợp HĐĐT</div>
               </div>
               <div class="solution-des">
@@ -199,7 +199,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="" /> -->
+            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="alt" /> -->
             <video style="width: 100%;
                                 border-radius: 10px;" loop playsinline autoplay muted>
               <source src="<?php bloginfo('template_directory'); ?>/assets/img/solution-vid2.mp4" type="video/mp4">
@@ -212,7 +212,7 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon3.png 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon3.png 2x" alt="alt" />
                 <div class="solution-name">Truy cập đồng thời từ nhiều tài khoản</div>
               </div>
               <div class="solution-des">
@@ -230,7 +230,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="" /> -->
+            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="alt" /> -->
             <video style="width: 100%;
                                 border-radius: 10px;" loop playsinline autoplay muted>
               <source src="<?php bloginfo('template_directory'); ?>/assets/img/solution-vid3.mp4" type="video/mp4">
@@ -243,7 +243,7 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon4.png 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon4.png 2x" alt="alt" />
                 <div class="solution-name">Tiện ích thông minh</div>
               </div>
               <div class="solution-des">
@@ -266,7 +266,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="" /> -->
+            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="alt" /> -->
             <video style="width: 100%;
                                 border-radius: 10px;" loop playsinline autoplay muted>
               <source src="<?php bloginfo('template_directory'); ?>/assets/img/solution-vid4.mp4" type="video/mp4">
@@ -279,7 +279,7 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon5.png 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon5.png 2x" alt="alt" />
                 <div class="solution-name">Phân tích tài chính doanh nghiệp</div>
               </div>
               <div class="solution-des">
@@ -297,7 +297,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="" /> -->
+            <!-- <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="alt" /> -->
             <video style="width: 100%;
                                 border-radius: 10px;" loop playsinline autoplay muted>
               <source src="<?php bloginfo('template_directory'); ?>/assets/img/solution-vid5.mp4" type="video/mp4">
@@ -310,7 +310,7 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon6.png 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon6.png 2x" alt="alt" />
                 <div class="solution-name">Làm việc mọi lúc, mọi nơi</div>
               </div>
               <div class="solution-des">
@@ -328,7 +328,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img6.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img6.png 2x" alt="alt" />
 
           </div>
         </div>
@@ -432,7 +432,7 @@
           <a href="<?php echo get_bloginfo('url') . $item['function-link'] ?>">
             <div class="allInOne-box">
               <div class="allInOne-detail">
-                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/<?php echo $item['icon'] ?> 2x" alt="" />
+                <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/<?php echo $item['icon'] ?> 2x" alt="alt" />
                 <div class="allInOne-name"><?php echo $item['name'] ?></div>
               </div>
               <div class="allInOne-more">
@@ -452,12 +452,12 @@
     <h2 class="esb-title">Khách hàng tiêu biểu</h2>
     <div class="scroller" data-speed="fast">
       <ul class="tag-list scroller__inner">
-        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img1.png 2x" alt="" /></li>
-        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img2.png 2x" alt="" /></li>
-        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img3.png 2x" alt="" /></li>
-        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img4.png 2x" alt="" /></li>
-        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img5.png 2x" alt="" /></li>
-        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img6.png 2x" alt="" /></li>
+        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img1.png 2x" alt="alt" /></li>
+        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img2.png 2x" alt="alt" /></li>
+        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img3.png 2x" alt="alt" /></li>
+        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img4.png 2x" alt="alt" /></li>
+        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img5.png 2x" alt="alt" /></li>
+        <li><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img6.png 2x" alt="alt" /></li>
       </ul>
     </div>
   </div>
@@ -466,19 +466,19 @@
   <div class="container">
     <img class="mb-5" srcset="
             https://easybooks.vn/wp-content/uploads/2024/06/banner-middle-landing.png 2x
-          " alt="" />
+          " alt="alt" />
     <div class="row gy-4 d-flex align-items-stretch">
       <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="feedback-box">
           <div class="feedback-info">
-            <img src="https://softdreams.vn/wp-content/uploads/2023/11/go-duc-thanh-1.png" alt="" />
+            <img src="https://softdreams.vn/wp-content/uploads/2023/11/go-duc-thanh-1.png" alt="alt" />
             <div class="feedback-name">Bùi Phương Thảo</div>
             <div class="feedback-position">
               Giám đốc tài chính kiêm kế toán trưởng Cty CP CB gỗ Đức Thành
             </div>
             <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/clarity_block-quote-line.png 2x
-                  " alt="" />
+                  " alt="alt" />
             <div class="feedback-detail">
               Chúng tôi đánh giá cao sự nhiệt tình hỗ trợ chăm sóc khách
               hàng của EasyBooks. Các bạn luôn xử lý nhanh chóng và kịp thời
@@ -488,19 +488,19 @@
             <div class="five-star">
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
             </div>
           </div>
         </div>
@@ -510,7 +510,7 @@
           <div class="feedback-info">
             <img src="
                            https://softdreams.vn/wp-content/uploads/2023/11/tynama.png
-                           " alt="" />
+                           " alt="alt" />
             <div class="feedback-name">Phạm Thị Diễm My</div>
             <div class="feedback-position">
               Trưởng phòng khách hàng doanh nghiệp Công ty TNHH Kế toán tư
@@ -518,7 +518,7 @@
             </div>
             <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/clarity_block-quote-line.png 2x
-                  " alt="" />
+                  " alt="alt" />
             <div class="feedback-detail">
               EasyBooks là phần mềm kế toán được thiết kế dựa trên nguyên
               tắc tối giản, giúp người dùng hạn chế tối đa thời gian làm
@@ -530,19 +530,19 @@
             <div class="five-star">
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
             </div>
           </div>
         </div>
@@ -552,12 +552,12 @@
           <div class="feedback-info">
             <img src="
                            https://softdreams.vn/wp-content/uploads/2023/11/5.png
-                           " alt="" />
+                           " alt="alt" />
             <div class="feedback-name">Nguyễn Quốc Hoàng Quân</div>
             <div class="feedback-position">Kế toán dịch vụ</div>
             <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/clarity_block-quote-line.png 2x
-                  " alt="" />
+                  " alt="alt" />
             <div class="feedback-detail">
               Phần mềm dễ sử dụng, có đầy đủ các chức năng và nhu cầu của
               doanh nghiệp về các doanh nghiệp đặc thù. Nhờ có EasyBooks,
@@ -567,19 +567,19 @@
             <div class="five-star">
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/star.png 2x
-                    " alt="" />
+                    " alt="alt" />
             </div>
           </div>
         </div>
@@ -604,7 +604,7 @@
             <div class="outstanding-news-box">
               <a class="single-image" href="<?php the_permalink() ?>">
                 <img class="single-avt" srcset="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?> 2x"
-                  alt="" />
+                  alt="alt" />
               </a>
               <div class="news-name"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></div>
               <div class="news-des">
@@ -640,21 +640,21 @@
         </div>
         <ul class="list-why">
           <li>
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon1.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon1.png 2x" alt="alt" />
             <div>
               11 năm kinh nghiệm đồng hàng cùng 50.000+ doanh
               nghiệp, hộ kinh doanh
             </div>
           </li>
           <li>
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon2.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon2.png 2x" alt="alt" />
             <div>
               Miễn phí cập nhật nhanh chóng, chính xác các
               Thông tư, nghị định mới nhất
             </div>
           </li>
           <li>
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon3.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon3.png 2x" alt="alt" />
             <div>
               Hỗ trợ 24/7 qua đa nền tảng: tổng đài, group hỗ
               trợ trên facebook, hỗ trợ qua zalo/fanpage, chat website, tài
@@ -662,11 +662,11 @@
             </div>
           </li>
           <li>
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon4.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon4.png 2x" alt="alt" />
             <div>Mức giá tốt nhất, chỉ từ 125k/ tháng</div>
           </li>
           <li>
-            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon5.png 2x" alt="" />
+            <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon5.png 2x" alt="alt" />
             <div>
               Tùy chỉnh phần mềm theo yêu cầu đặc thù của khách
               hàng

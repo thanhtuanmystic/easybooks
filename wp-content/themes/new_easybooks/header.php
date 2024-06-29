@@ -27,14 +27,14 @@
         <div class="hotline">
           Hỗ trợ kỹ thuật & CSKH
           <span><a href="tel: 1900575754"><img
-                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x" alt="" />1900 57 57
+                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x" alt="header-call-icon" />1900 57 57
               54</a></span>
         </div>
         <div class="consulting">
           Tư vấn phần mềm Kế toán:
           <span>
             <a href="tel: 0981 772 388"><img
-                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x" alt="" />0981 772
+                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x" alt="header-call-icon" />0981 772
               388</a></span>
         </div>
       </div>
@@ -44,12 +44,12 @@
         <i class="fa fa-bars bx-menu" aria-hidden="true"></i>
         <div class="logo">
           <a href="<?php echo get_bloginfo('url') ?>"><img
-              srcset="<?php bloginfo('template_directory'); ?>/assets/img/logo-header.png 2x" alt="" /></a>
+              srcset="<?php bloginfo('template_directory'); ?>/assets/img/logo-header.png 2x" alt="logo-header" /></a>
         </div>
         <div class="nav-links">
           <div class="sidebar-logo">
             <span class="logo-name"><img srcset="<?php bloginfo('template_directory'); ?>/assets/img/logo-header.png 2x"
-                alt="" /></span>
+                alt="logo-header" /></span>
             <i class="fa fa-times bx bx-x" aria-hidden="true"></i>
           </div>
           <ul class="links">

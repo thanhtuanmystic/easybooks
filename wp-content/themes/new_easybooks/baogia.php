@@ -29,7 +29,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tiền mặt - ngân hàng
                 </li>
                 <li>
@@ -37,7 +37,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Mua hàng
                 </li>
                 <li>
@@ -45,7 +45,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Bán hàng
                 </li>
                 <li>
@@ -53,7 +53,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Kho
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Hóa đơn điện tử
                 </li>
                 <li>
@@ -69,7 +69,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Hóa đơn từ thuế
                 </li>
                 <li>
@@ -77,7 +77,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tổng hợp
                 </li>
                 <li>
@@ -85,7 +85,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Lương
                 </li>
                 <li>
@@ -93,7 +93,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Thuế
                 </li>
               </ul>
@@ -114,7 +114,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tiền mặt - ngân hàng
                 </li>
                 <li>
@@ -122,7 +122,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Mua hàng
                 </li>
                 <li>
@@ -130,7 +130,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Bán hàng
                 </li>
                 <li>
@@ -138,7 +138,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Kho
                 </li>
                 <li>
@@ -146,7 +146,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Giá thành
                 </li>
                 <li>
@@ -154,7 +154,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tổng hợp
                 </li>
                 <li>
@@ -162,7 +162,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Quản lý hóa đơn
                 </li>
                 <li>
@@ -170,7 +170,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Hóa đơn điện tử
                 </li>
                 <li>
@@ -178,7 +178,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Đồng bộ hóa đơn từ thuế
                 </li>
                 <li>
@@ -186,7 +186,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Thuế
                 </li>
                 <li>
@@ -194,7 +194,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Công cụ dụng cụ
                 </li>
                 <li>
@@ -202,7 +202,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tài sản cố định
                 </li>
                 <li>
@@ -210,7 +210,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Lương
                 </li>
                 <li>
@@ -218,7 +218,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Hợp đồng
                 </li>
                 <li>
@@ -226,7 +226,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Khế ước vay
                 </li>
               </ul>
@@ -247,7 +247,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tiền mặt - ngân hàng
                 </li>
                 <li>
@@ -255,7 +255,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Mua hàng
                 </li>
                 <li>
@@ -263,7 +263,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Bán hàng
                 </li>
                 <li>
@@ -271,7 +271,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Kho
                 </li>
                 <li>
@@ -279,7 +279,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Giá thành
                 </li>
                 <li>
@@ -287,7 +287,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tổng hợp
                 </li>
                 <li>
@@ -295,7 +295,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Quản lý hóa đơn
                 </li>
                 <li>
@@ -303,7 +303,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Hóa đơn điện tử
                 </li>
                 <li>
@@ -311,7 +311,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Đồng bộ hóa đơn từ thuế
                 </li>
                 <li>
@@ -319,7 +319,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Thuế
                 </li>
                 <li>
@@ -327,7 +327,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Công cụ dụng cụ
                 </li>
                 <li>
@@ -335,7 +335,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Tài sản cố định
                 </li>
                 <li>
@@ -343,7 +343,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Lương
                 </li>
                 <li>
@@ -351,7 +351,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Hợp đồng
                 </li>
                 <li>
@@ -359,7 +359,7 @@
                     srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/Check-circle.png 2x
                     "
-                    alt=""
+                    alt="alt-icon"
                   />Khế ước vay
                 </li>
               </ul>

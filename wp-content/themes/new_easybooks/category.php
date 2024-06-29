@@ -21,10 +21,10 @@
                 <div class="col-lg-6">
                   <div class="news-single-box">
                     <a class="single-image" href="<?php the_permalink(); ?>">
-                      <img class="single-avt" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" alt="">
+                      <img class="single-avt" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" alt="alt-cate">
                     </a>
                     <div class="post-date">
-                      <img srcset="https://easybooks.vn/wp-content/uploads/2024/06/date-icon.png 2x" alt="">
+                      <img srcset="https://easybooks.vn/wp-content/uploads/2024/06/date-icon.png 2x" alt="alt-cate">
                       <?php echo get_the_date(); ?>
                     </div>
                     <div class="post-title">
@@ -67,7 +67,7 @@
           <div class="news-sidebar">
             <a href="https://dangkydemo.easybooks.vn/" target="_blank">
               <img style="width: 100%"
-                srcset="https://easybooks.vn/wp-content/uploads/2024/06/news-col-right-demoesb.png 2x" alt="">
+                srcset="https://easybooks.vn/wp-content/uploads/2024/06/news-col-right-demoesb.png 2x" alt="alt-cate">
             </a>
             <div class="news-search-box">
               <div class="title">Tìm kiếm</div>
@@ -110,13 +110,13 @@
                           <a href="<?php the_permalink() ?>">
                           <div class="popular-post-box">
                             <img style="width: 10rem; height: 10rem; border-radius: 0.6rem"
-                              srcset="<?php echo get_the_post_thumbnail_url() ?> 2x" alt="">
+                              srcset="<?php echo get_the_post_thumbnail_url() ?> 2x" alt="alt-cate">
                             <div class="popular-post-info">
                               <div class="popular-post-name">
                                 <?php the_title() ?>
                               </div>
                               <div class="popular-post-date">
-                                <img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x" alt="">
+                                <img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x" alt="alt-cate">
                                 <?php echo get_the_date() ?>
                               </div>
                             </div>
@@ -134,7 +134,7 @@
             </div>
             <a href="https://easyposs.vn/dang-ky-dung-thu/" target="_blank">
               <img style="width: 100%"
-                srcset="https://easybooks.vn/wp-content/uploads/2024/06/news-col-right-demoesp.png 2x" alt="">
+                srcset="https://easybooks.vn/wp-content/uploads/2024/06/news-col-right-demoesp.png 2x" alt="alt-cate">
             </a>
           </div>
         </div>

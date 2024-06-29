@@ -1110,6 +1110,9 @@ nav .navbar .links li:hover .js-sub-menu {
   gap: 1.6rem;
   align-items: center;
 }
+#footer .footer-list-sns li:hover {
+  opacity: 0.8;
+}
 #footer .all-product {
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.3);
@@ -1207,6 +1210,9 @@ nav .navbar .links li:hover .js-sub-menu {
 #footer .list-title-footer li {
   color: #fff;
   font-size: 1.6rem;
+}
+#footer .list-title-footer li:hover, #footer .list-title-footer li a:hover {
+  color: orangered;
 }
 #footer .footer-credit {
   display: flex;
@@ -1953,7 +1959,7 @@ h4 span {
   }
   #esb_video #VisaChipCardVideo {
     width: 90%;
-    height: 50rem;
+    height: 46rem;
   }
   .page-template-chucnang
     .list-function

@@ -2,10 +2,10 @@
   <div class="container">
     <div class="logoes-footer">
       <a href="https://softdreams.vn">
-        <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/footer-sds-logo.png 2x" alt="" />
+        <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/footer-sds-logo.png 2x" alt="alt-footer" />
       </a>
       <a href="<?php echo get_bloginfo('url') ?>"> <img
-          srcset="<?php bloginfo('template_directory'); ?>/assets/img/footer-esb-logo.png 2x" alt="" /></a>
+          srcset="<?php bloginfo('template_directory'); ?>/assets/img/footer-esb-logo.png 2x" alt="alt-footer" /></a>
     </div>
     <div class="row gy-4 d-flex">
       <div class="col-lg-4 col-md-6 col-sm-12">
@@ -17,29 +17,29 @@
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon1.png 2x
-                    " alt="" />Trụ sở chính: Nhà khách ATS, số 8 Phạm Hùng, Phường Mễ Trì,
+                    " alt="alt-footer" />Trụ sở chính: Nhà khách ATS, số 8 Phạm Hùng, Phường Mễ Trì,
               Quận Nam Từ Liêm, Hà Nội
             </li>
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon1.png 2x
-                    " alt="" />Chi nhánh: Số H.54 đường Dương Thị Giang, Phường Tân Thới
+                    " alt="alt-footer" />Chi nhánh: Số H.54 đường Dương Thị Giang, Phường Tân Thới
               Nhất, Quận 12, TP. Hồ Chí Minh
             </li>
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon2.png 2x
-                    " alt="" />easybooks.softdreams@gmail.com
+                    " alt="alt-footer" />easybooks.softdreams@gmail.com
             </li>
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon3.png 2x
-                    " alt="" />0981 772 388
+                    " alt="alt-footer" />0981 772 388
             </li>
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon4.png 2x
-                    " alt="" />https://easybooks.vn/
+                    " alt="alt-footer" />https://easybooks.vn/
             </li>
           </ul>
         </div>
@@ -47,26 +47,29 @@
       <div class="col-lg-2 col-md-6 col-sm-12">
         <div class="footer-col-heading">Giới thiệu</div>
         <ul class="list-title-footer">
-          <li>Công ty</li>
-          <li>Easybooks</li>
-          <li>Tin tức</li>
-          <li>Sự kiện</li>
+          <li><a target="_blank" href="https://softdreams.vn">Công ty</a></li>
+          <li><a href="<?php echo get_bloginfo('url') ?>">Easybooks</a></li>
+          <li><a href="<?php echo get_bloginfo('url') ?>/tin-tuc">Tin tức</a></li>
+          <li><a target="_blank" href="https://softdreams.vn/event">Sự kiện</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="footer-col-heading">Báo giá</div>
         <ul class="list-title-footer">
-          <li>Thông tư 88</li>
-          <li>Thông tư 133</li>
-          <li>Thông tư 200</li>
+          <li><a href="<?php echo get_bloginfo('url') ?>/bao-gia">Thông tư 88</a></li>
+          <li><a href="<?php echo get_bloginfo('url') ?>/bao-gia">Thông tư 133</a></li>
+          <li><a href="<?php echo get_bloginfo('url') ?>/bao-gia">Thông tư 200</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="footer-col-heading">Hỗ trợ</div>
         <ul class="list-title-footer">
-          <li>Tài liệu hướng dẫn sử dụng EasyBooks TT88</li>
-          <li>Tài liệu hướng dẫn sử dụng EasyBooks TT133 / TT200</li>
-          <li>Hướng dẫn Easybooks qua video</li>
+          <li> <a target="_blank" href="https://drive.google.com/drive/folders/13mZEcsSM-PF8w_r8goHRzq98U-8CcGir">Tài
+              liệu hướng dẫn sử
+              dụng EasyBooks TT88</a> </li>
+          <li><a href="">Tài liệu hướng dẫn sử dụng EasyBooks TT133 / TT200</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086">Hướng dẫn Easybooks qua
+              video</a></li>
         </ul>
       </div>
     </div>
@@ -81,7 +84,7 @@
               <ul class="list-software">
                 <a target="_blank" href="https://easybooks.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group-2.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group-2.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyBooks</div>
                       <div class="software-des">Phần mềm kế toán</div>
@@ -90,7 +93,7 @@
                 </a>
                 <a target="_blank" href="https://easyinvoice.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyInvoice</div>
                       <div class="software-des">
@@ -101,7 +104,7 @@
                 </a>
                 <a target="_blank" href="https://easy-pit.easyinvoice.com.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-1.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-1.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyPIT</div>
                       <div class="software-des">Khấu trừ thuế TNCN</div>
@@ -110,7 +113,7 @@
                 </a>
                 <a target="_blank" href="https://easyinvoice.vn/softdreams-ra-mat-giai-phap-in-ve-dien-tu-easyticket/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-2.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-2.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyTicket</div>
                       <div class="software-des">
@@ -126,7 +129,7 @@
               <ul class="list-software">
                 <a target="_blank" href="https://easyhrm.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-3.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-3.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyHRM</div>
                       <div class="software-des">
@@ -137,7 +140,7 @@
                 </a>
                 <a target="_blank" href="https://easyposs.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-4.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-4.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyPOS</div>
                       <div class="software-des">Phần mềm bán hàng</div>
@@ -146,7 +149,7 @@
                 </a>
                 <a target="_blank" href="https://easyca.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-5.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-5.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyCA</div>
                       <div class="software-des">Phần mềm chữ ký số</div>
@@ -155,7 +158,7 @@
                 </a>
                 <a target="_blank" href="https://easydocs.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group-3.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group-3.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyDocs</div>
                       <div class="software-des">
@@ -167,7 +170,7 @@
                 <a href="#">
                   <div style="display: flex; align-items: center" class="software-row">
                     <img style="width: 24px" src="http://softdreams.vn/wp-content/uploads/2023/11/Group-2609314.png"
-                      alt="" />
+                      alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyCRM</div>
                       <div class="software-des">
@@ -183,7 +186,7 @@
               <ul class="list-software">
                 <a href="#">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">EasyKYC</div>
                       <div class="software-des">Xác thực khách hàng</div>
@@ -192,7 +195,7 @@
                 </a>
                 <a target="_blank" href="https://cic.gov.vn/">
                   <div style="display: flex; align-items: center" class="software-row">
-                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-6.png" alt="" />
+                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-6.png" alt="alt-footer" />
                     <div class="software">
                       <div class="software-title">CICB</div>
                       <div class="software-des">Kết nối khách hàng vay</div>
@@ -205,31 +208,11 @@
         </div>
       </div>
       <ul class="footer-list-sns">
-        <li>
-          <img srcset="
-                  https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x
-                " alt="" />
-        </li>
-        <li>
-          <img srcset="
-                  https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x
-                " alt="" />
-        </li>
-        <li>
-          <img srcset="
-                  https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon3.png 2x
-                " alt="" />
-        </li>
-        <li>
-          <img srcset="
-                  https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon4.png 2x
-                " alt="" />
-        </li>
-        <li>
-          <img srcset="
-                  https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon5.png 2x
-                " alt="" />
-        </li>
+        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x" alt="alt-footer" /></a></li>
+        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x" alt="alt-footer" /></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon3.png 2x" alt="alt-footer" /></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/www.easybooks.vn"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon4.png 2x" alt="alt-footer" /></a></li>
+        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon5.png 2x" alt="alt-footer" /></a></li>
       </ul>
     </div>
   </div>

@@ -22,11 +22,11 @@
 											<a class="single-image" href="<?php the_permalink(); ?>">
 												<img class="single-avt"
 													src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>"
-													alt="">
+													alt="alt-search">
 											</a>
 											<div class="post-date">
 												<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/date-icon.png 2x"
-													alt="">
+													alt="alt-search">
 												<?php echo get_the_date(); ?>
 											</div>
 											<div class="post-title">
@@ -115,7 +115,7 @@
 							<a href="https://dangkydemo.easybooks.vn/" target="_blank">
 								<img style="width: 100%"
 									srcset="https://easybooks.vn/wp-content/uploads/2024/06/news-col-right-demoesb.png 2x"
-									alt="">
+									alt="alt-search">
 							</a>
 							<div class="news-search-box">
 								<div class="title">Tìm kiếm</div>
@@ -129,81 +129,60 @@
 								<div class="title">Xem nhiều</div>
 								<div class="row">
 									<div class="popular-box">
-										<div class="col-lg-12">
-											<div class="popular-post-box">
-												<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/popular-post-img.png 2x"
-													alt="">
-												<div class="popular-post-info">
-													<div class="popular-post-name">
-														Our favorite healthy summer hiliday
+										<?php
+										$categories = get_the_category($post->ID);
+										if ($categories) {
+											$category_ids = array();
+											foreach ($categories as $individual_category)
+												$category_ids[] = $individual_category->term_id;
+											$args = array(
+												'category__in' => $category_ids,
+												'post__not_in' => array($post->ID),
+												'showposts' => 4,
+												'caller_get_posts' => 1
+											);
+											$my_query = new wp_query($args);
+											if ($my_query->have_posts()) {
+												while ($my_query->have_posts()) {
+													$my_query->the_post();
+													?>
+													<style>
+														.popular-post-box:hover {
+															opacity: 0.8;
+														}
+													</style>
+													<div class="col-lg-12">
+														<a href="<?php the_permalink() ?>">
+															<div class="popular-post-box">
+																<img style="width: 10rem; height: 10rem; border-radius: 0.6rem"
+																	srcset="<?php echo get_the_post_thumbnail_url() ?> 2x"
+																	alt="alt-cate">
+																<div class="popular-post-info">
+																	<div class="popular-post-name">
+																		<?php the_title() ?>
+																	</div>
+																	<div class="popular-post-date">
+																		<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x"
+																			alt="alt-cate">
+																		<?php echo get_the_date() ?>
+																	</div>
+																</div>
+															</div>
+														</a>
 													</div>
-													<div class="popular-post-date">
-														<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x"
-															alt="">
-														November 27, 2023
-													</div>
-												</div>
-											</div>
-										</div>
-										<hr>
-										<div class="col-lg-12">
-											<div class="popular-post-box">
-												<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/popular-post-img.png 2x"
-													alt="">
-												<div class="popular-post-info">
-													<div class="popular-post-name">
-														Our favorite healthy summer hiliday
-													</div>
-													<div class="popular-post-date">
-														<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x"
-															alt="">
-														November 27, 2023
-													</div>
-												</div>
-											</div>
-										</div>
-										<hr>
-										<div class="col-lg-12">
-											<div class="popular-post-box">
-												<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/popular-post-img.png 2x"
-													alt="">
-												<div class="popular-post-info">
-													<div class="popular-post-name">
-														Our favorite healthy summer hiliday
-													</div>
-													<div class="popular-post-date">
-														<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x"
-															alt="">
-														November 27, 2023
-													</div>
-												</div>
-											</div>
-										</div>
-										<hr>
-										<div class="col-lg-12">
-											<div class="popular-post-box">
-												<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/popular-post-img.png 2x"
-													alt="">
-												<div class="popular-post-info">
-													<div class="popular-post-name">
-														Our favorite healthy summer hiliday
-													</div>
-													<div class="popular-post-date">
-														<img srcset="https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x"
-															alt="">
-														November 27, 2023
-													</div>
-												</div>
-											</div>
-										</div>
-
+													<hr>
+													<?php
+												}
+											}
+										}
+										?>
 									</div>
 								</div>
 							</div>
 							<a href="https://easyposs.vn/dang-ky-dung-thu/" target="_blank">
 								<img style="width: 100%"
 									srcset="https://easybooks.vn/wp-content/uploads/2024/06/news-col-right-demoesp.png 2x"
-									alt="">
+									alt="alt-search">
 							</a>
 						</div>
 					</div>
