@@ -208,15 +208,56 @@
         </div>
       </div>
       <ul class="footer-list-sns">
-        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x" alt="alt-footer" /></a></li>
-        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x" alt="alt-footer" /></a></li>
-        <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon3.png 2x" alt="alt-footer" /></a></li>
-        <li><a target="_blank" href="https://www.facebook.com/www.easybooks.vn"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon4.png 2x" alt="alt-footer" /></a></li>
-        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon5.png 2x" alt="alt-footer" /></a></li>
+        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x"
+              alt="alt-footer" /></a></li>
+        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x"
+              alt="alt-footer" /></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086"><img
+              srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon3.png 2x" alt="alt-footer" /></a>
+        </li>
+        <li><a target="_blank" href="https://www.facebook.com/www.easybooks.vn"><img
+              srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon4.png 2x" alt="alt-footer" /></a>
+        </li>
+        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon5.png 2x"
+              alt="alt-footer" /></a></li>
       </ul>
     </div>
   </div>
 </footer>
+<div style="position: fixed;" id="button-contact-vr" class="">
+  <div id="gom-all-in-one">
+    <div id="fanpage-vr" class="button-contact">
+      <div class="phone-vr">
+        <div class="phone-vr-circle-fill"></div>
+        <div class="phone-vr-img-circle">
+          <a target="_blank" href="https://www.facebook.com/www.easybooks.vn">
+            <img alt="Fanpage" src="https://easyhrm.vn/wp-content/plugins/button-contact-vr/img/Facebook.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="zalo-vr" class="button-contact">
+      <div class="phone-vr">
+        <div class="phone-vr-circle-fill"></div>
+        <div class="phone-vr-img-circle">
+          <a target="_blank" href="https://zalo.me/0766074666">
+            <img alt="Zalo" src="https://easyhrm.vn/wp-content/plugins/button-contact-vr/img/zalo.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="phone-vr" class="button-contact">
+      <div class="phone-vr">
+        <div class="phone-vr-circle-fill"></div>
+        <div class="phone-vr-img-circle">
+          <a href="tel:0981772388">
+            <img alt="Phone" src="https://easyhrm.vn/wp-content/plugins/button-contact-vr/img/phone.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

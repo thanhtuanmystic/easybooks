@@ -7,7 +7,9 @@
 				<div class="row gy-md-5 gy-sm-4">
 					<div class="col-lg-8 col-md-12 col-sm-12">
 						<div class="row gy-5">
-							<?php if (have_posts()): ?>
+							<?php if (have_posts()):
+								query_posts(array_merge($wp_query->query, array('post_type' => 'post')));
+								?>
 								<div class="page-header">
 									<h1 class="page-title">
 										<?php printf('Kết quả tìm kiếm cho: %s', '<span>' . get_search_query() . '</span>'); ?>

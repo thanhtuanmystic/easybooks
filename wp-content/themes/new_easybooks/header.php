@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148720743-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-148720743-1');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,23 +28,44 @@
   } else
     echo the_title();
   ?></title>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5BV8DNJ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!--  Ladichat	 -->
+  <script src="https://w.ladicdn.com/ladichat/sdk.js" id="661dd4b9b8fe5900208e5317_661dd4e0b8fe5900208e56ba"
+    async></script>
+  <!-- End ladichat	 -->
 </head>
 
 <body <?php body_class(); ?>>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BV8DNJ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="over-nav">
       <div class="container">
         <div class="hotline">
           Hỗ trợ kỹ thuật & CSKH
           <span><a href="tel: 1900575754"><img
-                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x" alt="header-call-icon" />1900 57 57
+                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x"
+                alt="header-call-icon" />1900 57 57
               54</a></span>
         </div>
         <div class="consulting">
           Tư vấn phần mềm Kế toán:
           <span>
             <a href="tel: 0981 772 388"><img
-                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x" alt="header-call-icon" />0981 772
+                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x"
+                alt="header-call-icon" />0981 772
               388</a></span>
         </div>
       </div>

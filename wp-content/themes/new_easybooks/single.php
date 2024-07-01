@@ -8,9 +8,9 @@ setpostview(get_the_id());
                 <div class="single-content-box">
                     <div class="bredcrumb">Tin tức</div>
                     <div class="seperate-bredcrumb"></div>
-                    <div class="single-title">
+                    <h1 class="single-title">
                         <?php the_title() ?>
-                    </div>
+                    </h1>
                     <div class="single-date">
                         <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/calendar-icon.png 2x

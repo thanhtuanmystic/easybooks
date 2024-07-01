@@ -53,11 +53,11 @@ if (isset($_POST['index_form'])) {
 	$title = "Đăng ký tư vấn từ trang chủ easybooks";
 	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber) . "<br>Biết đến Easybooks qua: " . trim($source);
 	$nTo = '';
-	$mTo = 'tuanvp2001@gmail.com';
+	$mTo = 'easybooks.softdreams@gmail.com';
 	$diachi = 'madara.pro201@gmail.com';
 	//test gui mail
 	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
-	header('Location: https://easyhrm.vn/register-successfully/');
+	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
 
 if (isset($_POST['contact_form'])) {
@@ -69,11 +69,11 @@ if (isset($_POST['contact_form'])) {
 	$title = "Đăng ký từ trang liên hệ easybooks";
 	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber) . "<br>Biết đến Easybooks qua: " . trim($source);
 	$nTo = '';
-	$mTo = 'tuanvp2001@gmail.com';
+	$mTo = 'easybooks.softdreams@gmail.com';
 	$diachi = 'madara.pro201@gmail.com';
 	//test gui mail
 	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
-	header('Location: https://easyhrm.vn/register-successfully/');
+	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
 
 ?>

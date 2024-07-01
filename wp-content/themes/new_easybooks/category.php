@@ -21,14 +21,16 @@
                 <div class="col-lg-6">
                   <div class="news-single-box">
                     <a class="single-image" href="<?php the_permalink(); ?>">
-                      <img class="single-avt" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" alt="alt-cate">
+                      <img loading="lazy" class="single-avt" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>" alt="alt-cate">
                     </a>
                     <div class="post-date">
                       <img srcset="https://easybooks.vn/wp-content/uploads/2024/06/date-icon.png 2x" alt="alt-cate">
                       <?php echo get_the_date(); ?>
                     </div>
                     <div class="post-title">
-                      <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                     <h3>
+                     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                     </h3>
                     </div>
                     <div class="post-summery">
                       <?php the_excerpt(); ?>

@@ -41,8 +41,24 @@ $(document).ready(function () {
     $("#" + contentId).show();
   });
 });
-
-// Scroll Partner
+// Scroll Link
+$(document).ready(function () {
+  $(".scroll-link").on("click", function (e) {
+    console.log($("header").outerHeight());
+    e.preventDefault();
+    // Lấy vị trí của phần tử cần scroll đến
+    const targetId = $(this).attr("href").substring(1);
+    const targetElement = $("#" + targetId);
+    // Scroll đến vị trí của phần tử
+    $("html, body").animate(
+      {
+        scrollTop: targetElement.offset().top - 100,
+      },
+      500
+    );
+  });
+});
+//  Partner
 const scrollers = document.querySelectorAll(".scroller");
 
 // If an user hasn't opted in for recuded motion, then we add the animation
@@ -101,4 +117,3 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
-
