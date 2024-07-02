@@ -208,9 +208,9 @@
         </div>
       </div>
       <ul class="footer-list-sns">
-        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x"
+        <li><a target="_blank" href="https://www.linkedin.com/in/easybooks/"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x"
               alt="alt-footer" /></a></li>
-        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x"
+        <li><a target="_blank" href="https://x.com/easybooksvn"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x"
               alt="alt-footer" /></a></li>
         <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086"><img
               srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon3.png 2x" alt="alt-footer" /></a>
@@ -218,12 +218,12 @@
         <li><a target="_blank" href="https://www.facebook.com/www.easybooks.vn"><img
               srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon4.png 2x" alt="alt-footer" /></a>
         </li>
-        <li><a href="#"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon5.png 2x"
-              alt="alt-footer" /></a></li>
+        
       </ul>
     </div>
   </div>
 </footer>
+<!-- 3 nút nháy -->
 <div style="position: fixed;" id="button-contact-vr" class="">
   <div id="gom-all-in-one">
     <div id="fanpage-vr" class="button-contact">

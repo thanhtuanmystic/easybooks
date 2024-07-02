@@ -4,7 +4,7 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner1.png 2x" alt="alt" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner1.png 2x" alt="alt" />
           <div class="banner-btn">
             <a target="_blank" href="https://dangkydemo.easybooks.vn/" class="trial-btn">
               <div>Đăng ký dùng thử</div>
@@ -13,17 +13,18 @@
               <div>Tư vấn miễn phí</div>
             </a>
             <a href="#esb_video" class="playvideo-btn scroll-link">
-              <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-playvideo-icon.png 2x" alt="alt" />
+              <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-playvideo-icon.png 2x"
+                alt="alt" />
               <div>Play Video</div>
             </a>
           </div>
         </div>
         <div class="swiper-slide">
-          <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner2.png 2x" alt="alt" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner2.png 2x" alt="alt" />
 
         </div>
         <div class="swiper-slide">
-          <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner3.jpg 2x" alt="alt" />
+          <img srcset="<?php bloginfo('template_directory'); ?>/assets/img/banner3.jpg 2x" alt="alt" />
         </div>
       </div>
       <div class="swiper-button-next"></div>
@@ -87,23 +88,28 @@
         </h2>
         <div class="for-all-right">
           <div class="for-all-box">
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/thuongmai-icon.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/thuongmai-icon.png 2x"
+              alt="alt" />
             <div class="for-all-name">Thương mại</div>
           </div>
           <div class="for-all-box">
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/dichvu-icon.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/dichvu-icon.png 2x"
+              alt="alt" />
             <div class="for-all-name">Dịch vụ</div>
           </div>
           <div class="for-all-box">
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/xaydung-icon.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/xaydung-icon.png 2x"
+              alt="alt" />
             <div class="for-all-name">Xây dựng</div>
           </div>
           <div class="for-all-box">
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/sanxuat-icon.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/sanxuat-icon.png 2x"
+              alt="alt" />
             <div class="for-all-name">Sản xuất</div>
           </div>
           <div class="for-all-box">
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/tonghop-icon.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/tonghop-icon.png 2x"
+              alt="alt" />
             <div class="for-all-name">Tổng hợp</div>
           </div>
         </div>
@@ -148,7 +154,8 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon1.png 2x" alt="alt" />
+                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon1.png 2x"
+                  alt="alt" />
                 <div class="solution-name">Nhập liệu thông minh</div>
               </div>
               <div class="solution-des">
@@ -171,7 +178,7 @@
             <!-- <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img1.png 2x" alt="alt" /> -->
             <video style="width: 100%;
                                 border-radius: 10px;" loop playsinline autoplay muted>
-              <source src="<?php bloginfo('template_directory'); ?>/assets/img/solution-vid1.mp4" type="video/mp4">
+              <source src="<?php bloginfo('template_directory'); ?>/assets/img/test.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -181,7 +188,8 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon2.png 2x" alt="alt" />
+                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon2.png 2x"
+                  alt="alt" />
                 <div class="solution-name">Tích hợp HĐĐT</div>
               </div>
               <div class="solution-des">
@@ -212,7 +220,8 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon3.png 2x" alt="alt" />
+                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon3.png 2x"
+                  alt="alt" />
                 <div class="solution-name">Truy cập đồng thời từ nhiều tài khoản</div>
               </div>
               <div class="solution-des">
@@ -243,7 +252,8 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon4.png 2x" alt="alt" />
+                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon4.png 2x"
+                  alt="alt" />
                 <div class="solution-name">Tiện ích thông minh</div>
               </div>
               <div class="solution-des">
@@ -279,7 +289,8 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon5.png 2x" alt="alt" />
+                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon5.png 2x"
+                  alt="alt" />
                 <div class="solution-name">Phân tích tài chính doanh nghiệp</div>
               </div>
               <div class="solution-des">
@@ -310,7 +321,8 @@
           <div class="col-lg-6">
             <div class="solution-box">
               <div class="solution-row">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon6.png 2x" alt="alt" />
+                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-icon6.png 2x"
+                  alt="alt" />
                 <div class="solution-name">Làm việc mọi lúc, mọi nơi</div>
               </div>
               <div class="solution-des">
@@ -328,7 +340,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img6.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/solution-img6.png 2x"
+              alt="alt" />
 
           </div>
         </div>
@@ -410,17 +423,17 @@
         array(
           'name' => 'Đồng bộ hóa đơn từ thuế',
           'icon' => 'allinone-icon13.png',
-          'function-link' => '/phan-he-thue'
+          'function-link' => '/chuc-nang'
         ),
         array(
           'name' => 'Kế toán thuế',
           'icon' => 'allinone-icon14.png',
-          'function-link' => '#'
+          'function-link' => '/phan-he-thue'
         ),
         array(
           'name' => 'Khế ước vay',
           'icon' => 'allinone-icon15.png',
-          'function-link' => '#'
+          'function-link' => '/chuc-nang'
         ),
 
 
@@ -432,7 +445,8 @@
           <a href="<?php echo get_bloginfo('url') . $item['function-link'] ?>">
             <div class="allInOne-box">
               <div class="allInOne-detail">
-                <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/<?php echo $item['icon'] ?> 2x" alt="alt" />
+                <img loading="lazy"
+                  srcset="<?php bloginfo('template_directory'); ?>/assets/img/<?php echo $item['icon'] ?> 2x" alt="alt" />
                 <div class="allInOne-name"><?php echo $item['name'] ?></div>
               </div>
               <div class="allInOne-more">
@@ -452,12 +466,18 @@
     <h2 class="esb-title">Khách hàng tiêu biểu</h2>
     <div class="scroller" data-speed="fast">
       <ul class="tag-list scroller__inner">
-        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img1.png 2x" alt="alt" /></li>
-        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img2.png 2x" alt="alt" /></li>
-        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img3.png 2x" alt="alt" /></li>
-        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img4.png 2x" alt="alt" /></li>
-        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img5.png 2x" alt="alt" /></li>
-        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img6.png 2x" alt="alt" /></li>
+        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img1.png 2x"
+            alt="alt" /></li>
+        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img2.png 2x"
+            alt="alt" /></li>
+        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img3.png 2x"
+            alt="alt" /></li>
+        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img4.png 2x"
+            alt="alt" /></li>
+        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img5.png 2x"
+            alt="alt" /></li>
+        <li><img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/partner-img6.png 2x"
+            alt="alt" /></li>
       </ul>
     </div>
   </div>
@@ -596,24 +616,28 @@
     <div class="row d-flex align-items-stretch gy-4">
 
       <?php
-      query_posts('posts_per_page=3');
-      if (have_posts()): ?>
-        <?php while (have_posts()):
-          the_post(); ?>
+      $args = array(
+        'post_type' => 'post',
+        'post__in' => array(3326, 3839, 3153),
+        'orderby' => 'post__in' // Để giữ thứ tự ID đã chỉ định
+      );
+      $query = new WP_Query($args);
+      if ($query->have_posts()):
+        while ($query->have_posts()) : $query->the_post(); ?>
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="outstanding-news-box">
               <a class="single-image" href="<?php the_permalink() ?>">
-                <img class="single-avt" loading="lazy" srcset="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?> 2x"
-                  alt="alt" />
+                <img class="single-avt" loading="lazy"
+                  srcset="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?> 2x" alt="alt" />
               </a>
               <div class="news-name"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></div>
               <div class="news-des">
                 <?php the_excerpt() ?>
               </div>
-              <div class="by-line">
+              <!-- <div class="by-line">
                 <span class="news-datetime">
-                  <i class="fa fa-calendar" aria-hidden="true"></i> <?php echo get_the_date() ?></span>
-              </div>
+                  <i class="fa fa-calendar" aria-hidden="true"></i> <?php // echo get_the_date() ?></span>
+              </div> -->
             </div>
           </div>
         <?php endwhile; else: ?>
@@ -640,21 +664,24 @@
         </div>
         <ul class="list-why">
           <li>
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon1.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon1.png 2x"
+              alt="alt" />
             <div>
               11 năm kinh nghiệm đồng hàng cùng 50.000+ doanh
               nghiệp, hộ kinh doanh
             </div>
           </li>
           <li>
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon2.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon2.png 2x"
+              alt="alt" />
             <div>
               Miễn phí cập nhật nhanh chóng, chính xác các
               Thông tư, nghị định mới nhất
             </div>
           </li>
           <li>
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon3.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon3.png 2x"
+              alt="alt" />
             <div>
               Hỗ trợ 24/7 qua đa nền tảng: tổng đài, group hỗ
               trợ trên facebook, hỗ trợ qua zalo/fanpage, chat website, tài
@@ -662,11 +689,13 @@
             </div>
           </li>
           <li>
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon4.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon4.png 2x"
+              alt="alt" />
             <div>Mức giá tốt nhất, chỉ từ 125k/ tháng</div>
           </li>
           <li>
-            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon5.png 2x" alt="alt" />
+            <img loading="lazy" srcset="<?php bloginfo('template_directory'); ?>/assets/img/register-icon5.png 2x"
+              alt="alt" />
             <div>
               Tùy chỉnh phần mềm theo yêu cầu đặc thù của khách
               hàng

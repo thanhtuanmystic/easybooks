@@ -87,9 +87,40 @@ function addAnimation() {
 }
 
 // Click all product footer
-$(".all-product").on("click", function () {
-  $(".all-product-show").toggle();
-  $(".arrowclass").toggleClass("arrow-up");
+// $(".all-product").on("click", function () {
+//   $(".all-product-show").toggle();
+//   $(".arrowclass").toggleClass("arrow-up");
+// });
+$(document).ready(function () {
+  var timeout;
+
+  $(".all-product").hover(
+    function () {
+      clearTimeout(timeout);
+      $(".all-product-show").show();
+    },
+    function () {
+      timeout = setTimeout(function () {
+        if (!$(".all-product-show").is(":hover")) {
+          $(".all-product-show").hide();
+        }
+      }, 100); // Delay để kiểm tra nếu con trỏ chuột không nằm trên div2
+    }
+  );
+
+  $(".all-product-show").hover(
+    function () {
+      clearTimeout(timeout);
+      $(".all-product-show").show();
+    },
+    function () {
+      timeout = setTimeout(function () {
+        if (!$(".all-product").is(":hover")) {
+          $(".all-product-show").hide();
+        }
+      }, 100); // Delay để kiểm tra nếu con trỏ chuột không nằm trên div1
+    }
+  );
 });
 
 // Swiper banner

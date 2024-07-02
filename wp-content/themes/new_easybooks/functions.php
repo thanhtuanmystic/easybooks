@@ -13,7 +13,7 @@ function create_button_shortcode($atts) {
     );
 
     // Tạo HTML cho button
-    $button_html = '<div class="d-flex justify-content-center" style="padding: 2rem"><a target="_blank" href="' . esc_url($atts['url']) . '" class=""><button class="'. esc_attr($atts['class']) .'"><span>'. esc_html($atts['text']) .'</span></button></a></div>';
+    $button_html = '<div class="d-flex justify-content-center" style="padding: 2rem"><a  target="_blank" href="' . esc_url($atts['url']) . '" class=""><button class="'. esc_attr($atts['class']) .'"><span style="color: #fff !important">'. esc_html($atts['text']) .'</span></button></a></div>';
 
     return $button_html;
 }

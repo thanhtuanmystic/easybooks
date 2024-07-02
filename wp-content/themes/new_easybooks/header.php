@@ -3,17 +3,20 @@
 
 <head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148720743-1"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M0CB323WZ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'UA-148720743-1');
+    gtag('config', 'G-9M0CB323WZ');
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Phần mềm kế toán Easybooks đáp ứng đầy đủ nghiệp vụ kế toán theo thông tư 88, thông tư 133 và thông tư 200. Tự động nhập liệu, tối ưu năng suất x10 lần">
+  <link rel="canonical" href="https://easybooks.vn/" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" />
@@ -22,7 +25,7 @@
   <link rel="Shortcut Icon" href="https://easybooks.vn/wp-content/uploads/2020/07/favicon-eb.png">
   <title><?php
   if (is_home()) {
-    echo "Easybooks - Đơn giản hoá công tác kế toán";
+    echo "Phần mềm kế toán Easybooks - Đơn giản hoá công tác kế toán";
   } elseif (is_category()) {
     echo "Tin tức";
   } else
@@ -96,6 +99,8 @@
               <a>Hướng dẫn</a>
               <i class="fa fa-chevron-down htmlcss-arrow arrow"></i>
               <ul class="htmlCss-sub-menu sub-menu">
+                <li><a target="_blank"
+                    href="https://drive.google.com/drive/folders/1ZACUQm22F6M4o2AOF_WVykVwfc_bNtDJ">HDSD 200</a></li>
                 <li><a target="_blank"
                     href="https://drive.google.com/drive/folders/13mZEcsSM-PF8w_r8goHRzq98U-8CcGir">HDSD APP88</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086">Video hướng
