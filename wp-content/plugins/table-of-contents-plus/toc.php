@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Table of Contents Plus
- * Plugin URI : http://dublue.com/plugins/toc/
+ * Plugin URI : https://zedzedzed.github.io/docs/tocplus.html
  * Description: A powerful yet user friendly plugin that automatically creates a table of contents. Can also output a sitemap listing all pages and categories.
  * Author:      Michael Tran
- * Author URI:  http://dublue.com/
+ * Author URI:  https://zedzedzed.github.io/docs/tocplus.html
  * Text Domain: table-of-contents-plus
  * Domain Path: /languages
- * Version:     2302
+ * Version:     2406
  * License:     GPL2
  */
 
@@ -32,7 +32,4 @@ https://github.com/zedzedzed/table-of-contents-plus/blob/main/LICENSE.md
  * http://www.iconfinder.com/search/?q=iconset%3Aoxygen
  */
 
-require_once __DIR__ . '/class-toc-plus.php';
-
-// do the magic
-$toc_plus = new TOC_Plus();
+require_once __DIR__ . '/includes/init.php';

@@ -34,7 +34,7 @@
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon3.png 2x
-                    " alt="alt-footer" />0981 772 388
+                    " alt="alt-footer" />0766 074 666
             </li>
             <li>
               <img srcset="
@@ -250,7 +250,7 @@
       <div class="phone-vr">
         <div class="phone-vr-circle-fill"></div>
         <div class="phone-vr-img-circle">
-          <a href="tel:0981772388">
+          <a href="tel:0766 074 666">
             <img alt="Phone" src="https://easyhrm.vn/wp-content/plugins/button-contact-vr/img/phone.png" />
           </a>
         </div>
@@ -265,10 +265,10 @@
 <script type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/form_handle.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js"></script>
+<!-- <script src="<?php // bloginfo('template_directory'); ?>/assets/js/main.js"></script> -->
 <!-- Swiper JS -->
 
-
+<?php wp_footer() ?>
 </body>
 
 </html>

@@ -73,3 +73,17 @@ if (isset($_POST['contact_form'])) {
 	$mail = sendMaill($title, $content, $nTo, $mTo, $diachi);
 	header('Location: https://easyhrm.vn/register-successfully/');
 }
+if (isset($_POST['trainghiemmienphi'])) {
+	$fullname = $_POST['hoten'];
+	$phoneNumber = $_POST['phonenumber'];
+	$email = $_POST['email'];
+	$taxNumber = $_POST['taxcode'];
+	$title = "Landing page trải nghiệm miễn phí";
+	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber);
+	$nTo = '';
+	$mTo = 'tuanvp2001@gmail.com';
+	$diachi = 'madara.pro201@gmail.com';
+	//test gui mail
+	$mail = sendMaill($title, $content, $nTo, $mTo, $diachi);
+	header('Location: https://easyhrm.vn/register-successfully/');
+}

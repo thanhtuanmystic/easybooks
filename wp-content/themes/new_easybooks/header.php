@@ -19,7 +19,7 @@
   <link rel="canonical" href="https://easybooks.vn/" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css" />
+  <!-- <link rel="stylesheet" href="<?php // bloginfo('template_directory'); ?>/assets/css/style.css" /> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="Shortcut Icon" href="https://easybooks.vn/wp-content/uploads/2020/07/favicon-eb.png">
@@ -31,6 +31,7 @@
   } else
     echo the_title();
   ?></title>
+  <?php wp_head() ?>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -56,6 +57,13 @@
   <header>
     <div class="over-nav">
       <div class="container">
+      <div class="consulting">
+          Tư vấn phần mềm Kế toán:
+          <span>
+            <a href="tel: 0766 074 666"><img
+                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x"
+                alt="header-call-icon" />0766 074 666</a></span>
+        </div>
         <div class="hotline">
           Hỗ trợ kỹ thuật & CSKH
           <span><a href="tel: 1900575754"><img
@@ -63,14 +71,7 @@
                 alt="header-call-icon" />1900 57 57
               54</a></span>
         </div>
-        <div class="consulting">
-          Tư vấn phần mềm Kế toán:
-          <span>
-            <a href="tel: 0981 772 388"><img
-                srcset="<?php bloginfo('template_directory'); ?>/assets/img/header-call-icon.png 2x"
-                alt="header-call-icon" />0981 772
-              388</a></span>
-        </div>
+        
       </div>
     </div>
     <nav>
@@ -87,8 +88,7 @@
             <i class="fa fa-times bx bx-x" aria-hidden="true"></i>
           </div>
           <ul class="links">
-            <li class="<?php if (is_home())
-              echo 'current-page'; ?>"><a href="<?php echo get_bloginfo('url') ?>">Trang
+            <li class="<?php if (is_home()) echo 'current-page'; ?>"><a href="<?php echo get_bloginfo('url') ?>">Trang
                 chủ</a></li>
             <li class="<?php if (is_page('chuc-nang'))
               echo 'current-page'; ?>"><a href="<?php echo get_bloginfo('url') . "/chuc-nang" ?>">Chức năng</a></li>

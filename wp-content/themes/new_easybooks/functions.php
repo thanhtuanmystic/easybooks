@@ -1,6 +1,15 @@
 <?php
+add_action('wp_enqueue_scripts', function () {
+	$themeUrl = get_template_directory_uri();
 
-function create_button_shortcode($atts) {
+	// css files
+	wp_enqueue_style('main-css', $themeUrl . '/assets/css/style.css');
+
+	// js files
+	wp_enqueue_script('main-js', $themeUrl . '/assets/js/main.js', array(), '1.0', true);
+});
+function create_button_shortcode($atts)
+{
     // Thiết lập các thuộc tính mặc định cho button
     $atts = shortcode_atts(
         array(
@@ -13,7 +22,7 @@ function create_button_shortcode($atts) {
     );
 
     // Tạo HTML cho button
-    $button_html = '<div class="d-flex justify-content-center" style="padding: 2rem"><a  target="_blank" href="' . esc_url($atts['url']) . '" class=""><button class="'. esc_attr($atts['class']) .'"><span style="color: #fff !important">'. esc_html($atts['text']) .'</span></button></a></div>';
+    $button_html = '<div class="d-flex justify-content-center" style="padding: 2rem"><a  target="_blank" href="' . esc_url($atts['url']) . '" class=""><button class="' . esc_attr($atts['class']) . '"><span style="color: #fff !important">' . esc_html($atts['text']) . '</span></button></a></div>';
 
     return $button_html;
 }
@@ -24,10 +33,11 @@ add_shortcode('button', 'create_button_shortcode');
 
 
 // Code tính lượt view cho bài viết
-function setpostview($postID){
-    $count_key ='views';
+function setpostview($postID)
+{
+    $count_key = 'views';
     $count = get_post_meta($postID, $count_key, true);
-    if($count == ''){
+    if ($count == '') {
         $count = 0;
         delete_post_meta($postID, $count_key);
         add_post_meta($postID, $count_key, '0');
@@ -36,15 +46,19 @@ function setpostview($postID){
         update_post_meta($postID, $count_key, $count);
     }
 }
-function getpostviews($postID){
-    $count_key ='views';
+function getpostviews($postID)
+{
+    $count_key = 'views';
     $count = get_post_meta($postID, $count_key, true);
-    if($count == ''){
+    if ($count == '') {
         delete_post_meta($postID, $count_key);
         add_post_meta($postID, $count_key, '0');
         return "0";
     }
     return $count;
 }
+
+
+
 
 ?>

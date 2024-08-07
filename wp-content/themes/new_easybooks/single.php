@@ -23,6 +23,9 @@ setpostview(get_the_id());
                         echo getpostviews(get_the_id());
                         ?>
                     </div>
+                    <?php
+                        
+                    ?>
                     <div class="single-content">
                         <?php the_content() ?>
                     </div>

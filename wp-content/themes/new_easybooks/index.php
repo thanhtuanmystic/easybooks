@@ -1,4 +1,14 @@
 <?php get_header() ?>
+<div class="overlay">
+</div>
+<div class="esb-popup">
+  <div class="button-x">
+    X
+  </div>
+  <a target="_blank" href="https://softdreams.vn/event/nhan-dien-phan-loai-ung-xu-ky-thuat-xu-ly-rui-ro-ve-thue-he-so-k-trong-hoa-don-dien-tu/">
+  <img srcset="https://softdreams.vn/wp-content/uploads/2024/07/email-MKT-19.7.jpg 2x" alt="">
+  </a>
+</div>
 <section id="hero_section">
   <div class="hero-banner">
     <div class="swiper mySwiper">

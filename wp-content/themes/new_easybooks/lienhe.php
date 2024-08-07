@@ -82,7 +82,7 @@
             <li>
               <img srcset="
                       https://easybooks.vn/wp-content/uploads/2024/06/footer-landing-icon3.png 2x
-                    " alt="" />0981 772 388
+                    " alt="" />0766 074 666
             </li>
             <li>
               <img srcset="

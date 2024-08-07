@@ -44,7 +44,7 @@ function sendMail($title, $content, $nTo, $mTo, $diachicc = '')
 }
 
 
-if (isset($_POST['index_form'])) {
+if (isset($_POST['index_form']) && $_POST['fullname'] != "" && $_POST['phonenumber'] != "") {
 	$fullname = $_POST['fullname'];
 	$phoneNumber = $_POST['phonenumber'];
 	$email = $_POST['email'];
@@ -53,14 +53,14 @@ if (isset($_POST['index_form'])) {
 	$title = "Đăng ký tư vấn từ trang chủ easybooks";
 	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber) . "<br>Biết đến Easybooks qua: " . trim($source);
 	$nTo = '';
-	$mTo = 'easybooks.softdreams@gmail.com';
+	$mTo = 'tuanvp2001@gmail.com';
 	$diachi = 'madara.pro201@gmail.com';
 	//test gui mail
 	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
 	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
 
-if (isset($_POST['contact_form'])) {
+if (isset($_POST['contact_form']) && $_POST['fullname'] != "" && $_POST['phonenumber'] != "") {
 	$fullname = $_POST['fullname'];
 	$phoneNumber = $_POST['phonenumber'];
 	$email = $_POST['email'];
@@ -69,7 +69,22 @@ if (isset($_POST['contact_form'])) {
 	$title = "Đăng ký từ trang liên hệ easybooks";
 	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber) . "<br>Biết đến Easybooks qua: " . trim($source);
 	$nTo = '';
-	$mTo = 'easybooks.softdreams@gmail.com';
+	$mTo = 'tuanvp2001@gmail.com';
+	$diachi = 'madara.pro201@gmail.com';
+	//test gui mail
+	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
+	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
+}
+
+if (isset($_POST['trainghiemmienphi'])) {
+	$fullname = $_POST['hoten'];
+	$phoneNumber = $_POST['phonenumber'];
+	$email = $_POST['email'];
+	$taxNumber = $_POST['taxcode'];
+	$title = "Landing page trải nghiệm miễn phí";
+	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber);
+	$nTo = '';
+	$mTo = 'tuanvp2001@gmail.com';
 	$diachi = 'madara.pro201@gmail.com';
 	//test gui mail
 	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
