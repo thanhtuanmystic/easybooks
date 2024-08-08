@@ -467,6 +467,16 @@
             gap: 50px;
         }
 
+        .why-box .img-right img,
+        .why-box .img-left img {
+            max-width: 94%;
+        }
+
+        .why-box .col-img-right {
+            display: flex;
+            justify-content: right;
+        }
+
         #why_easybooks .why-box .why-explain {
             display: flex;
             flex-direction: column;
@@ -495,6 +505,21 @@
         #why_easybooks .why-box .why-explain .why-btn {
             display: flex;
             gap: 20px;
+        }
+
+        #middle_banner {
+            background: url('https://easybooks.vn/wp-content/uploads/2024/08/Rectangle-3321.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 3rem 0;
+            margin: 5rem 0;
+        }
+
+        #middle_banner .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         #feedback {
@@ -535,7 +560,7 @@
 
         #feedback .feedback-box .feedback-info .feedback-detail {
             color: var(--Gray-900, #030b2c);
-            text-align: center;
+            text-align: justify;
             font-size: 16px;
             font-style: normal;
             line-height: 28px;
@@ -695,7 +720,7 @@
             background: #fff;
             display: flex;
             flex-direction: column;
-            gap: 32px;
+            gap: 16px;
             width: 100%;
         }
 
@@ -734,7 +759,7 @@
         }
 
         #question .icon-container i {
-            font-size: 1.6rem;
+            font-size: 1rem;
             cursor: pointer;
             opacity: 0.5;
             transition: transform 0.3s ease-in-out;
@@ -759,13 +784,13 @@
             -o-border-radius: 2.4rem;
         }
 
-        #question .faq-box:hover {
-        }
+        #question .faq-box:hover {}
 
         #question .faqBoxActive {
             border: 1px solid var(--Gradient, #F37B20);
             background: var(--Backgrounds-Primary, #FFF);
         }
+
         #question .faqBoxActive .faq-question {
             color: var(--Gray-800, #040F3E);
 
@@ -983,6 +1008,36 @@
                 width: 100%;
             }
 
+            .hero-img-left {
+                display: none;
+            }
+
+            #number .number-box {
+                padding: 0;
+            }
+
+            #number .number-box .number-text {
+                font-size: 36px;
+            }
+
+            #number .number-box .typeOfNumber {
+                font-size: 16px;
+            }
+
+            #hero {
+                padding: 30px 0;
+            }
+
+            #number {
+                padding-bottom: 0;
+            }
+
+            #form_bottom .form-bottom {
+                width: 100%;
+                padding: 40px 0;
+                gap: 16px;
+                padding: 40px 20px;
+            }
 
         }
 
@@ -1049,6 +1104,11 @@
                 margin-top: 40px;
             }
 
+            .why-box .img-right img,
+            .why-box .img-left img {
+                max-width: 100%;
+            }
+
         }
     </style>
 </head>
@@ -1106,7 +1166,7 @@
                 <a target="_blank" href="https://easybooks.vn/"> <img
                         srcset="https://easybooks.vn/wp-content/uploads/2024/06/header-logo.png 2x" alt=""></a>
                 <ul>
-                    <li><a target="_blank" href="https://easybooks.vn/">Trang chủ</a></li>
+                    <li><a target="_blank" href="#hero" class="scroll-link">Trang chủ</a></li>
                     <li><a href="#why_easybooks" class="scroll-link">Chức năng</a></li>
                     <li><a href="#easybooks_price" class="scroll-link">Báo giá</a></li>
                     <li><a target="_blank" href="https://easybooks.vn/tin-tuc">Tin tức</a></li>
@@ -1119,7 +1179,8 @@
         <div class="container">
             <div class="row d-flex align-items-center gy-4">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Group-2609652-1.png 2x" alt="">
+                    <img class="hero-img-left"
+                        srcset="https://easybooks.vn/wp-content/uploads/2024/08/Group-2609652-1.png 2x" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="hero-content-right">
@@ -1153,19 +1214,19 @@
     <section id="number">
         <div class="container">
             <div class="row gy-4">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="number-box">
                         <div class="number-text">11<span>+</span></div>
                         <div class="typeOfNumber">Năm phát triển</div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="number-box">
                         <div class="number-text">300<span>+</span></div>
                         <div class="typeOfNumber">Đại lý toàn quốc</div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="number-box">
                         <div class="number-text">50.000<span>+</span></div>
                         <div class="typeOfNumber">Doanh nghiệp tin dùng</div>
@@ -1205,7 +1266,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-img-right">
                             <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/why-img1.png 2x
                   " alt="" />
@@ -1262,7 +1323,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-img-right">
                             <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/why-img3.png 2x
                   " alt="" />
@@ -1325,7 +1386,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-img-right">
                             <img srcset="
                     https://easybooks.vn/wp-content/uploads/2024/06/why-img5.png 2x
                   " alt="" />
@@ -1360,12 +1421,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="why-row">
-                    <img srcset="
-                https://easybooks.vn/wp-content/uploads/2024/06/banner-middle-landing.png 2x
-              " alt="" />
-                </div>
             </div>
+        </div>
+    </section>
+    <section id="middle_banner">
+        <div class="container">
+            <img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Frame-427326397.png 2x" alt="">
+            <img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Frame-427326290.png 2x" alt="">
         </div>
     </section>
     <section id="feedback">
@@ -1758,15 +1820,15 @@
     <section id="form_bottom">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="slogan">
                         “ Với sứ mệnh phụng sự vì lợi ích khách hàng, chúng tôi luôn lắng
                         nghe những vấn đề mà bạn đang gặp phải”
                     </div>
-                    <img srcset="https://easybooks.vn/wp-content/uploads/2024/06/banner-bottom-element-left.png 2x"
-                        alt="">
+                    <img style="margin-top: 20px"
+                        srcset="https://easybooks.vn/wp-content/uploads/2024/08/Group-2609652-3.png 2x" alt="">
                 </div>
-                <div class="col-lg-6 d-flex" style="justify-content: right">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex" style="justify-content: right">
                     <form action="../form-handle" method="POST" class="form-bottom" id="form_bottom_validate">
                         <div class="form-title">Dùng thử miễn phí <br>
                             Phần mềm Kế toán EasyBooks</div>
@@ -2003,7 +2065,7 @@
                                         <ul class="list-software">
                                             <a target="_blank" href="https://easybooks.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group-2.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Group-2.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyBooks</div>
@@ -2015,7 +2077,7 @@
                                             </a>
                                             <a target="_blank" href="https://easyinvoice.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyInvoice</div>
@@ -2027,7 +2089,7 @@
                                             </a>
                                             <a target="_blank" href="https://easy-pit.easyinvoice.com.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-1.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame-1.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyPIT</div>
@@ -2040,7 +2102,7 @@
                                             <a target="_blank"
                                                 href="https://easyinvoice.vn/softdreams-ra-mat-giai-phap-in-ve-dien-tu-easyticket/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-2.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame-2.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyTicket</div>
@@ -2059,7 +2121,7 @@
                                         <ul class="list-software">
                                             <a target="_blank" href="https://easyhrm.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-3.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame-3.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyHRM</div>
@@ -2071,7 +2133,7 @@
                                             </a>
                                             <a target="_blank" href="https://easyposs.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-4.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame-4.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyPOS</div>
@@ -2083,7 +2145,7 @@
                                             </a>
                                             <a target="_blank" href="https://easyca.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-5.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame-5.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyCA</div>
@@ -2095,7 +2157,7 @@
                                             </a>
                                             <a target="_blank" href="https://easydocs.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group-3.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Group-3.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyDocs</div>
@@ -2108,7 +2170,7 @@
                                             <a href="#">
                                                 <div style="display: flex; align-items: center" class="software-row">
                                                     <img style="width: 24px"
-                                                        src="http://softdreams.vn/wp-content/uploads/2023/11/Group-2609314.png"
+                                                        src="https://softdreams.vn/wp-content/uploads/2023/11/Group-2609314.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyCRM</div>
@@ -2127,7 +2189,7 @@
                                         <ul class="list-software">
                                             <a href="#">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Group.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Group.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">EasyKYC</div>
@@ -2139,7 +2201,7 @@
                                             </a>
                                             <a target="_blank" href="https://cic.gov.vn/">
                                                 <div style="display: flex; align-items: center" class="software-row">
-                                                    <img src="http://softdreams.vn/wp-content/uploads/2023/10/Frame-6.png"
+                                                    <img src="https://softdreams.vn/wp-content/uploads/2023/10/Frame-6.png"
                                                         alt="" />
                                                     <div class="software">
                                                         <div class="software-title">CICB</div>
@@ -2738,11 +2800,38 @@
                 $answer.css("max-height", $answer.hasClass("active") ? $answer[0].scrollHeight + "px" : "0").css("margin-top", $answer.hasClass("active") ? "1rem" : "0");
                 $faqBox.addClass($answer.hasClass("active") ? "faqBoxActive" : "");
             });
-
         });
-        $('.all-product').on('click', function () {
-            $('.all-product-show').toggle();
-            $('.arrowclass').toggleClass('arrow-up');
+    </script>
+    <script>
+        $(document).ready(function () {
+            var timeout;
+            $(".all-product").hover(
+                function () {
+                    clearTimeout(timeout);
+                    $(".all-product-show").show();
+                },
+                function () {
+                    timeout = setTimeout(function () {
+                        if (!$(".all-product-show").is(":hover")) {
+                            $(".all-product-show").hide();
+                        }
+                    }, 100); // Delay để kiểm tra nếu con trỏ chuột không nằm trên div2
+                }
+            );
+
+            $(".all-product-show").hover(
+                function () {
+                    clearTimeout(timeout);
+                    $(".all-product-show").show();
+                },
+                function () {
+                    timeout = setTimeout(function () {
+                        if (!$(".all-product").is(":hover")) {
+                            $(".all-product-show").hide();
+                        }
+                    }, 100); // Delay để kiểm tra nếu con trỏ chuột không nằm trên div1
+                }
+            );
         });
     </script>
 </body>

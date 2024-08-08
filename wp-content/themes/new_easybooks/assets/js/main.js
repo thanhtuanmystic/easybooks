@@ -115,7 +115,6 @@ function addAnimation() {
 // });
 $(document).ready(function () {
   var timeout;
-
   $(".all-product").hover(
     function () {
       clearTimeout(timeout);
