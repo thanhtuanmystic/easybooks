@@ -10,7 +10,7 @@ function sendMail($title, $content, $nTo, $mTo, $diachicc = '')
 {
 	$nFrom = 'http://easybooks.vn';
 	$mFrom = 'sds-noreply@softdreams.vn';	//dia chi email cua ban 
-	$mPass = '123@abcD';		//mat khau email cua ban
+	$mPass = 'Softdream@PassWord0909!';		//mat khau email cua ban
 	$mail = new PHPMailer();
 	$body = $content;
 	$mail->IsSMTP();
@@ -90,5 +90,22 @@ if (isset($_POST['trainghiemmienphi'])) {
 	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
 	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
+
+if (isset($_POST['landing2thang9'])) {
+	$fullname = $_POST['hoten'];
+	$phoneNumber = $_POST['phonenumber'];
+	$email = $_POST['email'];
+	$taxNumber = $_POST['taxcode'];
+	$promotion = $_POST['promotion'];
+	$title = "Landing page mừng Quốc khánh";
+	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber) . "<br>Gói lựa trọn: Giảm " . trim($promotion) . "%";
+	$nTo = '';
+	$mTo = 'tuanvp2001@gmail.com';
+	$diachi = 'madara.pro201@gmail.com';
+	//test gui mail
+	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
+	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
+}
+
 
 ?>

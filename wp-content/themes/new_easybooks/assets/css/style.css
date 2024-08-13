@@ -53,11 +53,10 @@ a {
 
 body {
   padding-top: 11rem;
-
 }
 .aligncenter {
-	display: block;
-	margin: 0 auto !important;
+  display: block;
+  margin: 0 auto !important;
 }
 
 /* Swiper header */
@@ -190,15 +189,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.esb-popup img {
-  max-width: 70%;
-}
+
 .esb-popup .button-x {
   position: absolute;
-  right: 15%;
+  right: 0;
   color: #fff;
   top: 0%;
-  font-size: 1.6rem;
+  font-size: 3rem;
   z-index: 100;
   border: 1px solid;
   padding: 0.2rem 1rem;
@@ -1024,7 +1021,6 @@ nav .navbar .links li:hover .js-sub-menu {
   color: var(--Gray-4, #9ba3b1);
   font-size: 1.6rem;
   font-family: "Averta-regular";
-	
 }
 
 #outstanding_news .esb-primary-btn {
@@ -1743,7 +1739,7 @@ table td {
   border: 1px solid #000;
 }
 table td span {
-	font-family: averta-regular;
+  font-family: averta-regular;
 }
 
 table thead {
@@ -1751,7 +1747,7 @@ table thead {
   color: #333;
   text-transform: uppercase;
 }
-table tbody tr:first-child td{
+table tbody tr:first-child td {
   background: #f2c168;
 }
 
@@ -1775,7 +1771,6 @@ table tbody th {
 table tbody td b {
   color: #333;
 }
-
 
 /* End table */
 .single-post #main_single .bredcrumb {
@@ -1805,8 +1800,8 @@ table tbody td b {
   font-size: 1.4rem;
   font-style: italic;
 }
-.single-post #main_single .single-content{
-	text-align: justify;
+.single-post #main_single .single-content {
+  text-align: justify;
 }
 .single-post #main_single .single-content p {
   color: #343434;
@@ -1843,7 +1838,7 @@ table tbody td b {
   padding: 2rem;
   margin: 2rem 0;
 }
-.single-post #main_single #toc_container ul  {
+.single-post #main_single #toc_container ul {
   margin-bottom: 0;
   margin-left: 1.6rem;
 }
@@ -1980,7 +1975,6 @@ h4 span {
 }
 .category #main-news-content .news-single-box .post-summery p {
   font-family: "Averta-regular";
-
 }
 .my-custom-class {
   border: none;

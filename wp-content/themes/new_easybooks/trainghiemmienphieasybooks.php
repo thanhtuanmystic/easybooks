@@ -12,7 +12,6 @@
         content="https://easybooks.vn/wp-content/uploads/2024/06/easybooksthumbnail.png" />
     <link rel="Shortcut Icon" href="https://easybooks.vn/wp-content/uploads/2020/07/favicon-eb.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
     <title><?php the_title() ?></title>
     <style>
         @font-face {
