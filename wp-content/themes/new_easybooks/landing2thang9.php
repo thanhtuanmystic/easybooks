@@ -3,10 +3,21 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NDDMBPCS');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta property="og:image" content="https://easybooks.vn/wp-content/uploads/2024/06/easybooksthumbnail.png" />
     <meta property="og:image:secure_url"
         content="https://easybooks.vn/wp-content/uploads/2024/06/easybooksthumbnail.png" />
@@ -225,6 +236,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDDMBPCS" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <style>
         * {
             margin: 0;
@@ -338,7 +353,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 50%;
+            width: 40%;
             z-index: 3;
             display: none;
         }
@@ -826,7 +841,6 @@
     </style>
     <div class="overlay"></div>
     <section id="form_register" class="popup">
-
         <div class="container">
             <div class="form-box">
                 <div class="x-close">
@@ -877,8 +891,6 @@
                             type="submit" class="form-button">Đăng ký
                             ngay</button></div>
                 </form>
-
-
             </div>
         </div>
     </section>
@@ -898,16 +910,16 @@
         </div>
     </section>
     <section id="hero">
-        <img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Group-2609670.png 2x">
+        <img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Group-2609670-1.png 2x">
     </section>
-    <section id="promotion">
+    <section data-aos="fade-up" id="promotion">
         <div class="container">
             <div class="landing-title">
                 Chương trình ưu đãi dành riêng cho khách hàng <br class="seperate">
                 <span>"lần đầu sử dụng EasyBooks"</span>
             </div>
             <div class="d-flex justify-content-center mb-lg-5 mb-sm-3 mb-3"><a
-                    class="form-button form-button-animation open-popup">Nhận ưu đãi ngay</a>
+                    class="form-button form-button-animation open-popup" data-radio="15phantram">Nhận ưu đãi ngay</a>
             </div>
 
             <div class="row gy-4 d-flex align-items-center">
@@ -934,7 +946,7 @@
             </div>
         </div>
     </section>
-    <section id="price">
+    <section data-aos="fade-up"  id="price">
         <div class="container">
             <div class="landing-title">Đăng ký liền tay - Nhận ngay ưu đãi</div>
             <div class="row gy-4">
@@ -949,7 +961,7 @@
                             <li><img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Check-circle.png 2x"
                                     alt="">Tiết kiệm 85% công sức nhập liệu</li>
                         </ul>
-                        <a class="form-button open-popup">Mua ngay</a>
+                        <a class="form-button open-popup" data-radio="5phantram">Mua ngay</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
@@ -965,7 +977,7 @@
                             <li><img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Check-circle-1.png 2x"
                                     alt="">Tiết kiệm 85% công sức nhập liệu</li>
                         </ul>
-                        <a class="form-button open-popup">Mua ngay</a>
+                        <a class="form-button open-popup" data-radio="15phantram">Mua ngay</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
@@ -979,14 +991,14 @@
                             <li><img srcset="https://easybooks.vn/wp-content/uploads/2024/08/Check-circle.png 2x"
                                     alt="">Tiết kiệm 85% công sức nhập liệu</li>
                         </ul>
-                        <a class="form-button open-popup">Mua ngay</a>
+                        <a class="form-button open-popup" data-radio="20phantram">Mua ngay</a>
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-    <section id="form_register">
+    <section data-aos="fade-up" id="form_register">
         <div class="container">
             <div class="row gy-4 d-flex align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -1070,7 +1082,7 @@
             </div>
         </div>
     </section>
-    <footer id="footer">
+    <footer data-aos="fade-up" id="footer">
         <div class="container">
             <div class="row gy-4 d-flex align-items-end">
                 <div class="col-lg-8">
@@ -1815,7 +1827,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $(document).ready(function () {
             var timeout;
@@ -1848,6 +1860,11 @@
             );
         });
         $(document).ready(function () {
+            AOS.init({
+                easing: 'ease',
+                delay: 50, // values from 0 to 3000, with step 50ms
+                duration: 1000, // values from 0 to 3000, with step 50ms
+            });
             $('.scroll-link').on('click', function (e) {
                 console.log($('header').outerHeight());
                 e.preventDefault();
@@ -1860,25 +1877,33 @@
                 }, 500);
             });
             $('.open-popup').on('click', function () {
+                var radioId = $(this).data('radio');
+                $('#' + radioId).prop('checked', true);
                 $('.overlay').show();
                 $('.popup').show();
             });
             $('.x-close').on("click", function () {
                 closeOverlayAndModal();
             });
-
             $('.overlay').on("click", function (event) {
                 if (event.target === $('.overlay')[0]) {
                     closeOverlayAndModal();
                 }
             });
-
             function closeOverlayAndModal() {
                 $('.overlay').hide();
                 $('.popup').hide();
             }
         });
-
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+                    // $("#5phantram").prop("checked", true);
+                    $('.overlay').show();
+                    $('.popup').show();
+                }
+            });
+        });
     </script>
     <script>
         $(document).ready(function () {

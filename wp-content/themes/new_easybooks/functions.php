@@ -1,12 +1,12 @@
 <?php
 add_action('wp_enqueue_scripts', function () {
-	$themeUrl = get_template_directory_uri();
+    $themeUrl = get_template_directory_uri();
 
-	// css files
-	wp_enqueue_style('main-css', $themeUrl . '/assets/css/style.css');
+    // css files
+    wp_enqueue_style('main-css', $themeUrl . '/assets/css/style.css');
 
-	// js files
-	wp_enqueue_script('main-js', $themeUrl . '/assets/js/main.js', array(), '1.0', true);
+    // js files
+    wp_enqueue_script('main-js', $themeUrl . '/assets/js/main.js', array(), '1.0', true);
 });
 function create_button_shortcode($atts)
 {
@@ -31,6 +31,25 @@ function create_button_shortcode($atts)
 add_shortcode('button', 'create_button_shortcode');
 
 
+
+function my_form_shortcode()
+{
+    // Đường dẫn đến file forminpost.php trong thư mục theme của bạn
+    $file_path = get_template_directory() . '/formInPosts.php';
+
+    // Kiểm tra xem file có tồn tại không
+    if (file_exists($file_path)) {
+        // Sử dụng hàm ob_start() để lấy nội dung của file
+        ob_start();
+        include $file_path;
+        return ob_get_clean();
+    } else {
+        return '<p>File form không tồn tại.</p>';
+    }
+}
+
+// Đăng ký shortcode
+add_shortcode('my_form', 'my_form_shortcode');
 
 // Code tính lượt view cho bài viết
 function setpostview($postID)
@@ -57,8 +76,5 @@ function getpostviews($postID)
     }
     return $count;
 }
-
-
-
 
 ?>

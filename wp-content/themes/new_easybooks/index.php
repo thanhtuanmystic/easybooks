@@ -4,7 +4,7 @@
 <style>
   .esb-popup {
     background: var(--Blue, linear-gradient(180deg, #0172D8 0%, #0149B8 100%));
-    padding: 3rem 7rem;
+    padding: 2rem 4rem;
     align-items: center;
     flex-direction: column;
     width: 60%;
@@ -17,7 +17,7 @@
 
   .esb-popup form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 20px;
     background: #fff;
     border-radius: 10px;
@@ -96,7 +96,7 @@
   }
 
   .esb-popup .esb-primary-btn div {
-    padding: 1.4rem 8rem;
+    padding: 1rem 8rem;
     font-size: 1.4rem;
   }
 
@@ -210,7 +210,7 @@
         </label>
       </div>
     </div>
-    <button type="submit" class="esb-primary-btn solution-getdemo mt-lg-5"
+    <button type="submit" class="esb-primary-btn solution-getdemo mt-lg-3"
       style="border: none; width: 100%; background: transparent">
       <div>Đăng ký ngay!</div>
     </button>

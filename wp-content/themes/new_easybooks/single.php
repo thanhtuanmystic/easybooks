@@ -17,15 +17,12 @@ setpostview(get_the_id());
                   " alt="alt-single" />
                         <?php echo get_the_date() ?>
                     </div>
-                    <div class="single-view">
+<!--                     <div class="single-view">
                         Lượt xem:
                         <?php
-                        echo getpostviews(get_the_id());
+//                         echo getpostviews(get_the_id());
                         ?>
-                    </div>
-                    <?php
-                        
-                    ?>
+                    </div> -->
                     <div class="single-content">
                         <?php the_content() ?>
                     </div>
@@ -165,4 +162,4 @@ setpostview(get_the_id());
         </div>
     </div>
 </section>
-<?php get_footer() ?>
+<?php get_footer() ?>   

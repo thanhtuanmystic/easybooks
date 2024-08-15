@@ -3,7 +3,7 @@
 <?php
 
 //goi thu vien
-include ('class.smtp.php');
+include('class.smtp.php');
 include "class.phpmailer.php";
 
 function sendMail($title, $content, $nTo, $mTo, $diachicc = '')
@@ -107,5 +107,26 @@ if (isset($_POST['landing2thang9'])) {
 	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
 
+
+if (isset($_POST['form_in_posts'])) {
+	$fullname = $_POST['hoten'];
+	$phoneNumber = $_POST['phonenumber'];
+	$email = $_POST['email'];
+	$taxNumber = $_POST['taxcode'];
+	$promotion = $_POST['promotion'];
+	$title = "Data form 2/9 từ bài SEO";
+	$content = "Họ và tên: " . trim($fullname) . "<br>Email: " . trim($email) . "<br>Điện thoại: " . trim($phoneNumber) . "<br>Mã số thuế: " . trim($taxNumber) . "<br>Gói lựa trọn: Giảm " . trim($promotion) . "%";
+	$nTo = '';
+	$mTo = 'tuanvp2001@gmail.com';
+	$diachi = 'madara.pro201@gmail.com';
+	//test gui mail
+	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
+	?>
+	<script>
+		$("#form_shortcode_register .form-box ").hide();
+		$(".form-thankyou").show();
+	</script>
+	<?php
+}
 
 ?>

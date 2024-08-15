@@ -208,17 +208,19 @@
         </div>
       </div>
       <ul class="footer-list-sns">
-        <li><a target="_blank" href="https://www.linkedin.com/in/easybooks/"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x"
-              alt="alt-footer" /></a></li>
-        <li><a target="_blank" href="https://x.com/easybooksvn"><img srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x"
-              alt="alt-footer" /></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/easybooks/"><img
+              srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon1.png 2x" alt="alt-footer" /></a>
+        </li>
+        <li><a target="_blank" href="https://x.com/easybooksvn"><img
+              srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon2.png 2x" alt="alt-footer" /></a>
+        </li>
         <li><a target="_blank" href="https://www.youtube.com/@softdreams-nangtamquantrid5086"><img
               srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon3.png 2x" alt="alt-footer" /></a>
         </li>
         <li><a target="_blank" href="https://www.facebook.com/www.easybooks.vn"><img
               srcset="https://easybooks.vn/wp-content/uploads/2024/06/footer-right-icon4.png 2x" alt="alt-footer" /></a>
         </li>
-        
+
       </ul>
     </div>
   </div>
@@ -264,6 +266,9 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script>
+  var formHandleUrl = "<?php echo get_bloginfo('url') . '/form-handle'; ?>";
+</script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/form_handle.js"></script>
 <!-- <script src="<?php // bloginfo('template_directory'); ?>/assets/js/main.js"></script> -->
 <!-- Swiper JS -->
