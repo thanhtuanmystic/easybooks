@@ -29,27 +29,31 @@ htmlcssArrow.onclick = function () {
 //   navLinks.classList.toggle("show3");
 // };
 
-
 // Popup
-$(document).ready(function() {
-  $('.overlay').on("click", function () {
-    $('.esb-popup').css('display','none');
-    $('.overlay').css('display','none');
+$(document).ready(function () {
+  $(".overlay").on("click", function () {
+    $(".esb-popup").css("display", "none");
+    $(".overlay").css("display", "none");
   });
 
-  $('.button-x').on("click", function () {
-    $('.esb-popup').css('display','none');
-    $('.overlay').css('display','none');
+  $(".button-x").on("click", function () {
+    $(".esb-popup").css("display", "none");
+    $(".overlay").css("display", "none");
   });
 
-  setTimeout(function() {
-    $('.overlay').css('display','block');
-    $('.esb-popup').css('display','flex');
-  }, 2000); 
-
+  setTimeout(function () {
+    $(".overlay").css("display", "block");
+    $(".esb-popup").css("display", "flex");
+  }, 2000);
 });
 
+$(document).ready(function () {
+  $('.button-contact-vr-display').hide();
 
+  $(".button-contact-vr-single").on("click", function () {
+    $('.button-contact-vr-display').slideToggle();
+  });
+});
 
 // Solution
 $(document).ready(function () {

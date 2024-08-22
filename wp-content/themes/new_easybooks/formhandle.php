@@ -76,7 +76,7 @@ if (isset($_POST['contact_form']) && $_POST['fullname'] != "" && $_POST['phonenu
 	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
 
-if (isset($_POST['trainghiemmienphi'])) {
+if (isset($_POST['trainghiemmienphi']) && $_POST['phonenumber'] != "") {
 	$fullname = $_POST['hoten'];
 	$phoneNumber = $_POST['phonenumber'];
 	$email = $_POST['email'];
@@ -91,7 +91,7 @@ if (isset($_POST['trainghiemmienphi'])) {
 	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
 }
 
-if (isset($_POST['landing2thang9'])) {
+if (isset($_POST['landing2thang9']) && $_POST['phonenumber'] != "") {
 	$fullname = $_POST['hoten'];
 	$phoneNumber = $_POST['phonenumber'];
 	$email = $_POST['email'];
@@ -103,12 +103,16 @@ if (isset($_POST['landing2thang9'])) {
 	$mTo = 'tuanvp2001@gmail.com';
 	$diachi = 'madara.pro201@gmail.com';
 	//test gui mail
-	$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
-	header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
+	if (strlen($fullname) <= 30) {
+		$mail = sendMail($title, $content, $nTo, $mTo, $diachi);
+		header('Location: https://easybooks.vn/dang-ky-thanh-cong/');
+	} else {
+		header('Location: https://easybooks.vn/');
+	}
 }
 
 
-if (isset($_POST['form_in_posts'])) {
+if (isset($_POST['form_in_posts']) && $_POST['phonenumber'] != "") {
 	$fullname = $_POST['hoten'];
 	$phoneNumber = $_POST['phonenumber'];
 	$email = $_POST['email'];
@@ -128,5 +132,4 @@ if (isset($_POST['form_in_posts'])) {
 	</script>
 	<?php
 }
-
 ?>

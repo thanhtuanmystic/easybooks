@@ -226,7 +226,51 @@
   </div>
 </footer>
 <!-- 3 nút nháy -->
-<div style="position: fixed;" id="button-contact-vr" class="">
+<style>
+  /* .button-contact-vr-display {
+    display: none;
+  } */
+  .button-contact-vr-single {
+    bottom: 0 !important;
+    left: 0.5%;
+  }
+
+  .phone-vr-img-circle-single {
+    width: 70px;
+    height: 70px;
+    line-height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phone-vr-circle-fill 1s infinite ease-in-out;
+  }
+
+  .phone-vr-circle-fill-single {
+    width: 70px;
+    height: 70px;
+    top: 0;
+    left: 0.5%;
+  } 
+</style>
+<div id="button-contact-vr" class="button-contact-vr-single">
+  <div id="gom-all-in-one">
+    <div id="zalo-vr" class="button-contact">
+      <div class="phone-vr">
+        <div class="phone-vr-circle-fill phone-vr-circle-fill-single" style="background: none"></div>
+        <div class="phone-vr-img-circle-single" style="background: none">
+          <a target="_blank">
+            <img
+              src="https://easybooks.vn/wp-content/uploads/2024/08/call-center-operator-vector-icon-600nw-1135823747.webp" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="position: fixed;" id="button-contact-vr" class="button-contact-vr-display">
   <div id="gom-all-in-one">
     <div id="fanpage-vr" class="button-contact">
       <div class="phone-vr">

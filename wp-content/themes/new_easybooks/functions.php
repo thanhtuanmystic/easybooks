@@ -34,7 +34,6 @@ add_shortcode('button', 'create_button_shortcode');
 
 function my_form_shortcode()
 {
-    // Đường dẫn đến file forminpost.php trong thư mục theme của bạn
     $file_path = get_template_directory() . '/formInPosts.php';
 
     // Kiểm tra xem file có tồn tại không

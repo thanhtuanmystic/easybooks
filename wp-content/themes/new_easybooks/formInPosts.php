@@ -168,19 +168,19 @@
                     <label for="5phantram" class="promotion-select">
                         <input type="radio" id="5phantram" name="promotion" value="5">
                         <span class="label-select"></span>
-                        <span>Giảm <strong>5%</strong> gói phần mềm kế toán
+                        <span>Giảm <strong>5%</strong> gói 2 năm phần mềm kế toán
                             EasyBooks</span><br>
                     </label>
                     <label for="15phantram" class="promotion-select">
                         <input type="radio" id="15phantram" name="promotion" value="15" checked="checked">
                         <span class="label-select"></span>
-                        <span>Giảm <strong>15%</strong> gói phần mềm kế toán
+                        <span>Giảm <strong>15%</strong> gói 3 năm phần mềm kế toán
                             EasyBooks</span><br>
                     </label>
                     <label for="20phantram" class="promotion-select">
                         <input type="radio" id="20phantram" name="promotion" value="20">
                         <span class="label-select"></span>
-                        <span>Giảm <strong>20%</strong> gói phần mềm kế toán
+                        <span>Giảm <strong>20%</strong> gói 5 năm phần mềm kế toán
                             EasyBooks</span>
                     </label>
                 </div>
