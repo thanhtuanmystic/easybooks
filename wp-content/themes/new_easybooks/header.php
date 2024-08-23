@@ -21,6 +21,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- <link rel="stylesheet" href="<?php // bloginfo('template_directory'); ?>/assets/css/style.css" /> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="Shortcut Icon" href="https://easybooks.vn/wp-content/uploads/2020/07/favicon-eb.png">
   <title><?php
@@ -297,8 +298,7 @@
     <form action="<?php if (is_home()) {
       echo "./form-handle";
     } else
-      echo "../form-handle" ?>" method="POST"
-        id="form_popup">
+      echo "../form-handle" ?>" method="POST" id="form_popup">
         <div class="form-title text-center">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY HÔM NAY!</div>
         <div class="form-info">
           <div class="form-row">

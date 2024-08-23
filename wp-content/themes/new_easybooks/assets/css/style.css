@@ -2682,6 +2682,9 @@ div#popup-form-contact-vr #loco-bottom .content-popup-img-vr {
   .category #main-news-content {
     padding: 2rem 0;
   }
+  .tuvanngay {
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

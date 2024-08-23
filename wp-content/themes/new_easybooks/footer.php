@@ -227,12 +227,11 @@
 </footer>
 <!-- 3 nút nháy -->
 <style>
-  /* .button-contact-vr-display {
-    display: none;
-  } */
   .button-contact-vr-single {
     bottom: 0 !important;
-    left: 0.5%;
+    left: -0.5%;
+    display: flex;
+    align-items: center;
   }
 
   .phone-vr-img-circle-single {
@@ -253,22 +252,31 @@
     height: 70px;
     top: 0;
     left: 0.5%;
-  } 
+  }
+
+  .phone-vr-single {
+    height: 80px !important;
+  }
 </style>
 <div id="button-contact-vr" class="button-contact-vr-single">
   <div id="gom-all-in-one">
     <div id="zalo-vr" class="button-contact">
-      <div class="phone-vr">
+      <div class="phone-vr phone-vr-single">
         <div class="phone-vr-circle-fill phone-vr-circle-fill-single" style="background: none"></div>
         <div class="phone-vr-img-circle-single" style="background: none">
           <a target="_blank">
             <img
-              src="https://easybooks.vn/wp-content/uploads/2024/08/call-center-operator-vector-icon-600nw-1135823747.webp" />
+              src="https://easybooks.vn/wp-content/uploads/2024/08/z5756369865188_3e51d1cbb58d97adc7f4d0937caae611.jpg" />
           </a>
+
         </div>
+
       </div>
     </div>
   </div>
+  <h1 style="color: #db5c35" class="animate__animated animate__heartBeat animate__infinite	infinite tuvanngay">Tư vấn
+    ngay!</h1>
+
 </div>
 <div style="position: fixed;" id="button-contact-vr" class="button-contact-vr-display">
   <div id="gom-all-in-one">
